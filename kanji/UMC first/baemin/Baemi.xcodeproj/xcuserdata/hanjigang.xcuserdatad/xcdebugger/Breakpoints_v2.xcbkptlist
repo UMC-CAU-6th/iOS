@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "71876CC0-3E76-420C-9F23-4D72F363CEAD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42B16098-6E28-45CB-B62D-08AD46B33889"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Baemi/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "42B16098-6E28-45CB-B62D-08AD46B33889 - 2cfac3402a143433"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Baemi.AppDelegate.__allocating_init() -&gt; Baemi.AppDelegate"
+                  moduleName = "Baemi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanjigang/Desktop/UMC_6th_IOS_sokft/IOS%20Stusy%201%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1/Baemi/Baemi/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "42B16098-6E28-45CB-B62D-08AD46B33889 - 87d35be9120c7ac0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Baemi.AppDelegate.init() -&gt; Baemi.AppDelegate"
+                  moduleName = "Baemi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanjigang/Desktop/UMC_6th_IOS_sokft/IOS%20Stusy%201%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1/Baemi/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "42B16098-6E28-45CB-B62D-08AD46B33889 - a117e644d59f54ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Baemi.AppDelegate.__deallocating_deinit"
+                  moduleName = "Baemi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanjigang/Desktop/UMC_6th_IOS_sokft/IOS%20Stusy%201%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1/Baemi/Baemi/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "42B16098-6E28-45CB-B62D-08AD46B33889 - 48c7717cff99a184"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Baemi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanjigang/Desktop/UMC_6th_IOS_sokft/IOS%20Stusy%201%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1/Baemi/Baemi/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
