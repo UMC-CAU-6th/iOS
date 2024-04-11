@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		339150E62BC7D93500B73655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339150E52BC7D93500B73655 /* AppDelegate.swift */; };
+		339150E82BC7D93500B73655 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339150E72BC7D93500B73655 /* SceneDelegate.swift */; };
+		339150EA2BC7D93500B73655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339150E92BC7D93500B73655 /* ViewController.swift */; };
+		339150EF2BC7D93700B73655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339150EE2BC7D93700B73655 /* Assets.xcassets */; };
+		339150F22BC7D93700B73655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339150F02BC7D93700B73655 /* LaunchScreen.storyboard */; };
+		339150FD2BC7D93700B73655 /* DonutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339150FC2BC7D93700B73655 /* DonutAppTests.swift */; };
+		339151072BC7D93700B73655 /* DonutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339151062BC7D93700B73655 /* DonutAppUITests.swift */; };
+		339151092BC7D93700B73655 /* DonutAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339151082BC7D93700B73655 /* DonutAppUITestsLaunchTests.swift */; };
+		339151172BC7DCC500B73655 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 339151162BC7DCC500B73655 /* KakaoSDK */; };
+		339151192BC7DCC500B73655 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 339151182BC7DCC500B73655 /* KakaoSDKAuth */; };
+		3391511B2BC7DCC500B73655 /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = 3391511A2BC7DCC500B73655 /* KakaoSDKCert */; };
+		3391511D2BC7DCC500B73655 /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3391511C2BC7DCC500B73655 /* KakaoSDKCertCore */; };
+		3391511F2BC7DCC500B73655 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 3391511E2BC7DCC500B73655 /* KakaoSDKCommon */; };
+		E12D0B8794A04E8A6FDB1A63 /* Pods_DonutApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 918F72A35378BD4CA8B01902 /* Pods_DonutApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		339150F92BC7D93700B73655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339150DA2BC7D93500B73655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339150E12BC7D93500B73655;
+			remoteInfo = DonutApp;
+		};
+		339151032BC7D93700B73655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339150DA2BC7D93500B73655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339150E12BC7D93500B73655;
+			remoteInfo = DonutApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27C07E8779D4681BFFF3F1E3 /* Pods-DonutApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutApp.release.xcconfig"; path = "Target Support Files/Pods-DonutApp/Pods-DonutApp.release.xcconfig"; sourceTree = "<group>"; };
+		339150E22BC7D93500B73655 /* DonutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		339150E52BC7D93500B73655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		339150E72BC7D93500B73655 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		339150E92BC7D93500B73655 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		339150EE2BC7D93700B73655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		339150F12BC7D93700B73655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		339150F32BC7D93700B73655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339150F82BC7D93700B73655 /* DonutAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonutAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339150FC2BC7D93700B73655 /* DonutAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutAppTests.swift; sourceTree = "<group>"; };
+		339151022BC7D93700B73655 /* DonutAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonutAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339151062BC7D93700B73655 /* DonutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutAppUITests.swift; sourceTree = "<group>"; };
+		339151082BC7D93700B73655 /* DonutAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		455939199C4767ED373A87CC /* Pods-DonutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutApp.debug.xcconfig"; path = "Target Support Files/Pods-DonutApp/Pods-DonutApp.debug.xcconfig"; sourceTree = "<group>"; };
+		918F72A35378BD4CA8B01902 /* Pods_DonutApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonutApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		339150DF2BC7D93500B73655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12D0B8794A04E8A6FDB1A63 /* Pods_DonutApp.framework in Frameworks */,
+				339151172BC7DCC500B73655 /* KakaoSDK in Frameworks */,
+				3391511D2BC7DCC500B73655 /* KakaoSDKCertCore in Frameworks */,
+				339151192BC7DCC500B73655 /* KakaoSDKAuth in Frameworks */,
+				3391511F2BC7DCC500B73655 /* KakaoSDKCommon in Frameworks */,
+				3391511B2BC7DCC500B73655 /* KakaoSDKCert in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339150F52BC7D93700B73655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339150FF2BC7D93700B73655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FAD8F55DE8A909AA064592 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				455939199C4767ED373A87CC /* Pods-DonutApp.debug.xcconfig */,
+				27C07E8779D4681BFFF3F1E3 /* Pods-DonutApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		339150D92BC7D93500B73655 = {
+			isa = PBXGroup;
+			children = (
+				339150E42BC7D93500B73655 /* DonutApp */,
+				339150FB2BC7D93700B73655 /* DonutAppTests */,
+				339151052BC7D93700B73655 /* DonutAppUITests */,
+				339150E32BC7D93500B73655 /* Products */,
+				18FAD8F55DE8A909AA064592 /* Pods */,
+				91E9715BB4A0F3CB6559029B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		339150E32BC7D93500B73655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				339150E22BC7D93500B73655 /* DonutApp.app */,
+				339150F82BC7D93700B73655 /* DonutAppTests.xctest */,
+				339151022BC7D93700B73655 /* DonutAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		339150E42BC7D93500B73655 /* DonutApp */ = {
+			isa = PBXGroup;
+			children = (
+				339150E52BC7D93500B73655 /* AppDelegate.swift */,
+				339150E72BC7D93500B73655 /* SceneDelegate.swift */,
+				339150E92BC7D93500B73655 /* ViewController.swift */,
+				339150EE2BC7D93700B73655 /* Assets.xcassets */,
+				339150F02BC7D93700B73655 /* LaunchScreen.storyboard */,
+				339150F32BC7D93700B73655 /* Info.plist */,
+			);
+			path = DonutApp;
+			sourceTree = "<group>";
+		};
+		339150FB2BC7D93700B73655 /* DonutAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				339150FC2BC7D93700B73655 /* DonutAppTests.swift */,
+			);
+			path = DonutAppTests;
+			sourceTree = "<group>";
+		};
+		339151052BC7D93700B73655 /* DonutAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				339151062BC7D93700B73655 /* DonutAppUITests.swift */,
+				339151082BC7D93700B73655 /* DonutAppUITestsLaunchTests.swift */,
+			);
+			path = DonutAppUITests;
+			sourceTree = "<group>";
+		};
+		91E9715BB4A0F3CB6559029B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				918F72A35378BD4CA8B01902 /* Pods_DonutApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		339150E12BC7D93500B73655 /* DonutApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3391510C2BC7D93700B73655 /* Build configuration list for PBXNativeTarget "DonutApp" */;
+			buildPhases = (
+				8D6DA4953EDCA12DA4E0F4A0 /* [CP] Check Pods Manifest.lock */,
+				339150DE2BC7D93500B73655 /* Sources */,
+				339150DF2BC7D93500B73655 /* Frameworks */,
+				339150E02BC7D93500B73655 /* Resources */,
+				D1870577343BE7FBA9F7EE72 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonutApp;
+			packageProductDependencies = (
+				339151162BC7DCC500B73655 /* KakaoSDK */,
+				339151182BC7DCC500B73655 /* KakaoSDKAuth */,
+				3391511A2BC7DCC500B73655 /* KakaoSDKCert */,
+				3391511C2BC7DCC500B73655 /* KakaoSDKCertCore */,
+				3391511E2BC7DCC500B73655 /* KakaoSDKCommon */,
+			);
+			productName = DonutApp;
+			productReference = 339150E22BC7D93500B73655 /* DonutApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		339150F72BC7D93700B73655 /* DonutAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3391510F2BC7D93700B73655 /* Build configuration list for PBXNativeTarget "DonutAppTests" */;
+			buildPhases = (
+				339150F42BC7D93700B73655 /* Sources */,
+				339150F52BC7D93700B73655 /* Frameworks */,
+				339150F62BC7D93700B73655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339150FA2BC7D93700B73655 /* PBXTargetDependency */,
+			);
+			name = DonutAppTests;
+			productName = DonutAppTests;
+			productReference = 339150F82BC7D93700B73655 /* DonutAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		339151012BC7D93700B73655 /* DonutAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339151122BC7D93700B73655 /* Build configuration list for PBXNativeTarget "DonutAppUITests" */;
+			buildPhases = (
+				339150FE2BC7D93700B73655 /* Sources */,
+				339150FF2BC7D93700B73655 /* Frameworks */,
+				339151002BC7D93700B73655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339151042BC7D93700B73655 /* PBXTargetDependency */,
+			);
+			name = DonutAppUITests;
+			productName = DonutAppUITests;
+			productReference = 339151022BC7D93700B73655 /* DonutAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		339150DA2BC7D93500B73655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					339150E12BC7D93500B73655 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					339150F72BC7D93700B73655 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 339150E12BC7D93500B73655;
+					};
+					339151012BC7D93700B73655 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 339150E12BC7D93500B73655;
+					};
+				};
+			};
+			buildConfigurationList = 339150DD2BC7D93500B73655 /* Build configuration list for PBXProject "DonutApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 339150D92BC7D93500B73655;
+			packageReferences = (
+				339151152BC7DCC400B73655 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+			);
+			productRefGroup = 339150E32BC7D93500B73655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				339150E12BC7D93500B73655 /* DonutApp */,
+				339150F72BC7D93700B73655 /* DonutAppTests */,
+				339151012BC7D93700B73655 /* DonutAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		339150E02BC7D93500B73655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339150F22BC7D93700B73655 /* LaunchScreen.storyboard in Resources */,
+				339150EF2BC7D93700B73655 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339150F62BC7D93700B73655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339151002BC7D93700B73655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D6DA4953EDCA12DA4E0F4A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonutApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1870577343BE7FBA9F7EE72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DonutApp/Pods-DonutApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DonutApp/Pods-DonutApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DonutApp/Pods-DonutApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		339150DE2BC7D93500B73655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339150EA2BC7D93500B73655 /* ViewController.swift in Sources */,
+				339150E62BC7D93500B73655 /* AppDelegate.swift in Sources */,
+				339150E82BC7D93500B73655 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339150F42BC7D93700B73655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339150FD2BC7D93700B73655 /* DonutAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339150FE2BC7D93700B73655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339151092BC7D93700B73655 /* DonutAppUITestsLaunchTests.swift in Sources */,
+				339151072BC7D93700B73655 /* DonutAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		339150FA2BC7D93700B73655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339150E12BC7D93500B73655 /* DonutApp */;
+			targetProxy = 339150F92BC7D93700B73655 /* PBXContainerItemProxy */;
+		};
+		339151042BC7D93700B73655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339150E12BC7D93500B73655 /* DonutApp */;
+			targetProxy = 339151032BC7D93700B73655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		339150F02BC7D93700B73655 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339150F12BC7D93700B73655 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3391510A2BC7D93700B73655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3391510B2BC7D93700B73655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3391510D2BC7D93700B73655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455939199C4767ED373A87CC /* Pods-DonutApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DonutApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = url.DonutApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3391510E2BC7D93700B73655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C07E8779D4681BFFF3F1E3 /* Pods-DonutApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DonutApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = url.DonutApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		339151102BC7D93700B73655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = url.DonutAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonutApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DonutApp";
+			};
+			name = Debug;
+		};
+		339151112BC7D93700B73655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = url.DonutAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonutApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DonutApp";
+			};
+			name = Release;
+		};
+		339151132BC7D93700B73655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = url.DonutAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DonutApp;
+			};
+			name = Debug;
+		};
+		339151142BC7D93700B73655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = url.DonutAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DonutApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		339150DD2BC7D93500B73655 /* Build configuration list for PBXProject "DonutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3391510A2BC7D93700B73655 /* Debug */,
+				3391510B2BC7D93700B73655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3391510C2BC7D93700B73655 /* Build configuration list for PBXNativeTarget "DonutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3391510D2BC7D93700B73655 /* Debug */,
+				3391510E2BC7D93700B73655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3391510F2BC7D93700B73655 /* Build configuration list for PBXNativeTarget "DonutAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339151102BC7D93700B73655 /* Debug */,
+				339151112BC7D93700B73655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339151122BC7D93700B73655 /* Build configuration list for PBXNativeTarget "DonutAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339151132BC7D93700B73655 /* Debug */,
+				339151142BC7D93700B73655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		339151152BC7DCC400B73655 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		339151162BC7DCC500B73655 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 339151152BC7DCC400B73655 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		339151182BC7DCC500B73655 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 339151152BC7DCC400B73655 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		3391511A2BC7DCC500B73655 /* KakaoSDKCert */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 339151152BC7DCC400B73655 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCert;
+		};
+		3391511C2BC7DCC500B73655 /* KakaoSDKCertCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 339151152BC7DCC400B73655 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCertCore;
+		};
+		3391511E2BC7DCC500B73655 /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 339151152BC7DCC400B73655 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 339150DA2BC7D93500B73655 /* Project object */;
+}
