@@ -11,7 +11,9 @@ import SnapKit
 class ViewController: UIViewController {
     
     private lazy var settingCheck = SettingCheck()
+    private lazy var kakaoLoginManager = KakaoLoginManager()
     private let member = MemberData(userId: "UMC", userPw: "q1234")
+    
     
     //MARK: - Title
     
@@ -68,7 +70,7 @@ class ViewController: UIViewController {
         return createMember(placeholder: "아이디를 입력해주세요!!")
     }()
     
-    /// 회원 비번 입력
+    /// 비번
     private lazy var memberPw: UITextField = {
         return createMember(placeholder: "비밀번호를 입력해주세요!!")
     }()
@@ -97,6 +99,11 @@ class ViewController: UIViewController {
     private lazy var kakaoLogin: UIImageView = {
         let image = UIImageView()
         let img = UIImage(named: "kakaoLogin.png")
+        
+        image.isUserInteractionEnabled = true
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(clickdKakao))
+        image.addGestureRecognizer(tapGesture)
+        
         image.image = img
         return image
     }()
@@ -136,6 +143,7 @@ class ViewController: UIViewController {
         
         self.view.backgroundColor = .white
         
+        
         /* 폰트 출력 */
         settingCheck.checkFont()
         
@@ -150,7 +158,8 @@ class ViewController: UIViewController {
     
     // MARK: - ConstraintsFuntion
     
-    /// 스택 내부 프로퍼티 추가
+    
+    /// 프로퍼티 뷰 추가 함수
     private func addStackProperty() {
         titleStack.addArrangedSubview(titleLogin)
         titleStack.addArrangedSubview(subTitle)
@@ -169,6 +178,7 @@ class ViewController: UIViewController {
         }
     }
     
+    /// 오토레이아웃 조정
     private func makeConstraints() {
         titleImage.snp.makeConstraints { make in
             make.left.equalToSuperview().offset(135)
@@ -229,7 +239,7 @@ class ViewController: UIViewController {
         let saveMember = MemberData.loadMember()
         
         if (memberId.text == saveMember.userId) && (memberPw.text == saveMember.userPw) {
-            CheckLogin()
+            checkLogin(for: "일반 로그인에 성공했습니다.")
         } else {
             print("회원정보 틀림!!")
             print(saveMember.userId)
@@ -237,11 +247,28 @@ class ViewController: UIViewController {
         }
     }
     
+    /// 카카오버튼 클릭
+    @objc private func clickdKakao() {
+        
+        print("카카오 클릭")
+        
+        kakaoLoginManager.login { [weak self] result in
+            switch result {
+            case .success(let oauthToken):
+                print("로그인 성공")
+                print("토큰 정보 : \(oauthToken)")
+                self?.checkLogin(for: "카카오톡 로그인에 성공했습니다.")
+            case .failure(let error):
+                print("로그인 에러 : \(error)")
+            }
+        }
+    }
+    
     // MARK: - Alert
     
     /// 로그인 성공시 작동하게 될 Alert
-    private func CheckLogin() {
-        let alert = UIAlertController(title: "login", message: "로그인에 성공했습니다.", preferredStyle: .alert)
+    private func checkLogin(for title: String) {
+        let alert = UIAlertController(title: "login", message: title, preferredStyle: .alert)
         
         let successAction = UIAlertAction(title: "확인", style: .default) { _ in
             print("알림창 확인 누름")
@@ -253,4 +280,3 @@ class ViewController: UIViewController {
     
     
 }
-
