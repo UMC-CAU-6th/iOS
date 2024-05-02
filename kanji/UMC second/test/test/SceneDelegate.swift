@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Donut2
+//  test
 //
 //  Created by 한지강 on 2024/04/11.
 //
@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         window = UIWindow(windowScene: windowScene)
-        let mainViewController = LoginViewController()
+        let mainViewController = ViewController()
         
         window?.rootViewController = mainViewController
         window?.makeKeyAndVisible()
