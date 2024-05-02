@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     
     private func setTitle(){
         self.view.addSubview(titleName)
+        //컴플리션
         titleName.snp.makeConstraints{(make) in
             make.centerX.equalToSuperview()
             make.centerY.equalToSuperview()
