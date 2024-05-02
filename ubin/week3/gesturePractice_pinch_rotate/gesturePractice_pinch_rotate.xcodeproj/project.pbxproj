@@ -10,12 +10,13 @@
 		F96D48492BE38EC9002370D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D48482BE38EC9002370D0 /* AppDelegate.swift */; };
 		F96D484B2BE38EC9002370D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D484A2BE38EC9002370D0 /* SceneDelegate.swift */; };
 		F96D484D2BE38EC9002370D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D484C2BE38EC9002370D0 /* ViewController.swift */; };
-		F96D48502BE38EC9002370D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F96D484F2BE38EC9002370D0 /* Base */; };
 		F96D48522BE38ECB002370D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96D48512BE38ECB002370D0 /* Assets.xcassets */; };
 		F96D48552BE38ECB002370D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F96D48542BE38ECB002370D0 /* Base */; };
 		F96D48602BE38ECB002370D0 /* gesturePractice_pinch_rotateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D485F2BE38ECB002370D0 /* gesturePractice_pinch_rotateTests.swift */; };
 		F96D486A2BE38ECB002370D0 /* gesturePractice_pinch_rotateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D48692BE38ECB002370D0 /* gesturePractice_pinch_rotateUITests.swift */; };
 		F96D486C2BE38ECB002370D0 /* gesturePractice_pinch_rotateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D486B2BE38ECB002370D0 /* gesturePractice_pinch_rotateUITestsLaunchTests.swift */; };
+		F96D487A2BE38F13002370D0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F96D48792BE38F13002370D0 /* SnapKit */; };
+		F96D487C2BE38F13002370D0 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F96D487B2BE38F13002370D0 /* SnapKit-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		F96D48482BE38EC9002370D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F96D484A2BE38EC9002370D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F96D484C2BE38EC9002370D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F96D484F2BE38EC9002370D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F96D48512BE38ECB002370D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F96D48542BE38ECB002370D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F96D48562BE38ECB002370D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F96D487A2BE38F13002370D0 /* SnapKit in Frameworks */,
+				F96D487C2BE38F13002370D0 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +104,6 @@
 				F96D48482BE38EC9002370D0 /* AppDelegate.swift */,
 				F96D484A2BE38EC9002370D0 /* SceneDelegate.swift */,
 				F96D484C2BE38EC9002370D0 /* ViewController.swift */,
-				F96D484E2BE38EC9002370D0 /* Main.storyboard */,
 				F96D48512BE38ECB002370D0 /* Assets.xcassets */,
 				F96D48532BE38ECB002370D0 /* LaunchScreen.storyboard */,
 				F96D48562BE38ECB002370D0 /* Info.plist */,
@@ -143,6 +144,10 @@
 			dependencies = (
 			);
 			name = gesturePractice_pinch_rotate;
+			packageProductDependencies = (
+				F96D48792BE38F13002370D0 /* SnapKit */,
+				F96D487B2BE38F13002370D0 /* SnapKit-Dynamic */,
+			);
 			productName = gesturePractice_pinch_rotate;
 			productReference = F96D48452BE38EC9002370D0 /* gesturePractice_pinch_rotate.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = F96D483C2BE38EC9002370D0;
+			packageReferences = (
+				F96D48782BE38F13002370D0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = F96D48462BE38EC9002370D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +241,6 @@
 			files = (
 				F96D48522BE38ECB002370D0 /* Assets.xcassets in Resources */,
 				F96D48552BE38ECB002370D0 /* Base in Resources */,
-				F96D48502BE38EC9002370D0 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F96D484E2BE38EC9002370D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F96D484F2BE38EC9002370D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F96D48532BE38ECB002370D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +446,6 @@
 				INFOPLIST_FILE = gesturePractice_pinch_rotate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +473,6 @@
 				INFOPLIST_FILE = gesturePractice_pinch_rotate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -607,6 +604,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F96D48782BE38F13002370D0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F96D48792BE38F13002370D0 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F96D48782BE38F13002370D0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F96D487B2BE38F13002370D0 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F96D48782BE38F13002370D0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F96D483D2BE38EC9002370D0 /* Project object */;
 }

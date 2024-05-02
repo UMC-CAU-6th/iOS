@@ -34,5 +34,5 @@ class TabBarController: UITabBarController {
         item.stackedLayoutAppearance.selected.iconColor = UIColor.black
         item.stackedLayoutAppearance.selected.titleTextAttributes = [.foregroundColor: UIColor.black]
         self.tabBar.standardAppearance = item
-    }c
+    }
 }

@@ -22,7 +22,6 @@
 		F94F3EBC2BE0C8F000BA95C1 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94F3EB22BE0C8F000BA95C1 /* Pretendard-SemiBold.otf */; };
 		F94F3EBD2BE0C8F000BA95C1 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94F3EB32BE0C8F000BA95C1 /* Pretendard-Thin.otf */; };
 		F94F3EBF2BE0C93B00BA95C1 /* FontExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F3EBE2BE0C93B00BA95C1 /* FontExtend.swift */; };
-		F96228832BE39D100033BE85 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96228822BE39D100033BE85 /* TableViewCell.swift */; };
 		F96D48222BE2C4D8002370D0 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F96D48212BE2C4D8002370D0 /* KakaoSDK */; };
 		F96D48242BE2C4D8002370D0 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F96D48232BE2C4D8002370D0 /* KakaoSDKAuth */; };
 		F96D48262BE2C4D8002370D0 /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = F96D48252BE2C4D8002370D0 /* KakaoSDKCert */; };
@@ -75,7 +74,6 @@
 		F94F3EB22BE0C8F000BA95C1 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		F94F3EB32BE0C8F000BA95C1 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
 		F94F3EBE2BE0C93B00BA95C1 /* FontExtend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtend.swift; sourceTree = "<group>"; };
-		F96228822BE39D100033BE85 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		F96D482B2BE2C66A002370D0 /* KakaoLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginManager.swift; sourceTree = "<group>"; };
 		F96D482E2BE2CA8F002370D0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F96D48302BE2D71E002370D0 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
@@ -159,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				F96D482E2BE2CA8F002370D0 /* MainViewController.swift */,
-				F96228822BE39D100033BE85 /* TableViewCell.swift */,
 				F96D48302BE2D71E002370D0 /* MainTableViewCell.swift */,
 				F96D48322BE2E930002370D0 /* Item.swift */,
 			);
@@ -395,7 +392,6 @@
 				F94F3EBF2BE0C93B00BA95C1 /* FontExtend.swift in Sources */,
 				F96D48392BE309C7002370D0 /* MapViewController.swift in Sources */,
 				F96D48312BE2D71E002370D0 /* MainTableViewCell.swift in Sources */,
-				F96228832BE39D100033BE85 /* TableViewCell.swift in Sources */,
 				F96D482C2BE2C66A002370D0 /* KakaoLoginManager.swift in Sources */,
 				F9043BDF2BDFCA8600A16FF3 /* SettingCheck.swift in Sources */,
 				F94F3EAA2BE00BF100BA95C1 /* MemberData.swift in Sources */,
