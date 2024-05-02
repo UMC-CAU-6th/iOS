@@ -15,8 +15,11 @@
 		48502AB42BC79C4800F4F1D0 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 48502AB32BC79C4800F4F1D0 /* KakaoSDKCommon */; };
 		486C20D32BBFD89100CC5DC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C20D22BBFD89100CC5DC3 /* AppDelegate.swift */; };
 		486C20D52BBFD89100CC5DC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C20D42BBFD89100CC5DC3 /* SceneDelegate.swift */; };
-		486C20D72BBFD89100CC5DC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C20D62BBFD89100CC5DC3 /* ViewController.swift */; };
+		486C20D72BBFD89100CC5DC3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C20D62BBFD89100CC5DC3 /* LoginViewController.swift */; };
 		486C20DC2BBFD89200CC5DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486C20DB2BBFD89200CC5DC3 /* Assets.xcassets */; };
+		48713F642BE3113700FA4748 /* DoughnutTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48713F632BE3113700FA4748 /* DoughnutTabBarController.swift */; };
+		48713F682BE311A600FA4748 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48713F672BE311A600FA4748 /* ShoppingViewController.swift */; };
+		48713F6A2BE311B400FA4748 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48713F692BE311B400FA4748 /* MapViewController.swift */; };
 		4871B1B42BC6BBC500DFA64F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4871B1B32BC6BBC500DFA64F /* SnapKit */; };
 		4871B1B62BC6BCD700DFA64F /* SettingCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4871B1B52BC6BCD700DFA64F /* SettingCheck.swift */; };
 		4871B1BC2BC6C0C500DFA64F /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4871B1B82BC6C0C500DFA64F /* Pretendard-SemiBold.otf */; };
@@ -25,6 +28,9 @@
 		4871B1BF2BC6C0C500DFA64F /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4871B1BB2BC6C0C500DFA64F /* Pretendard-Regular.otf */; };
 		4871B1C12BC6C1C500DFA64F /* FontExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4871B1C02BC6C1C500DFA64F /* FontExtend.swift */; };
 		4885D4272BC6F1F2003868F5 /* MemberData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885D4262BC6F1F2003868F5 /* MemberData.swift */; };
+		489F365B2BE283B800E0649B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489F365A2BE283B800E0649B /* MainViewController.swift */; };
+		489F365D2BE2A1C300E0649B /* DoughnutTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489F365C2BE2A1C300E0649B /* DoughnutTableCell.swift */; };
+		48B210222BE2C9880030729F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B210212BE2C9880030729F /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +38,12 @@
 		486C20CF2BBFD89100CC5DC3 /* Doughnut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doughnut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		486C20D22BBFD89100CC5DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		486C20D42BBFD89100CC5DC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		486C20D62BBFD89100CC5DC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		486C20D62BBFD89100CC5DC3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		486C20DB2BBFD89200CC5DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486C20E02BBFD89200CC5DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48713F632BE3113700FA4748 /* DoughnutTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutTabBarController.swift; sourceTree = "<group>"; };
+		48713F672BE311A600FA4748 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		48713F692BE311B400FA4748 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4871B1B52BC6BCD700DFA64F /* SettingCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCheck.swift; sourceTree = "<group>"; };
 		4871B1B82BC6C0C500DFA64F /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		4871B1B92BC6C0C500DFA64F /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
@@ -42,6 +51,9 @@
 		4871B1BB2BC6C0C500DFA64F /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 		4871B1C02BC6C1C500DFA64F /* FontExtend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtend.swift; sourceTree = "<group>"; };
 		4885D4262BC6F1F2003868F5 /* MemberData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberData.swift; sourceTree = "<group>"; };
+		489F365A2BE283B800E0649B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		489F365C2BE2A1C300E0649B /* DoughnutTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutTableCell.swift; sourceTree = "<group>"; };
+		48B210212BE2C9880030729F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,13 +92,15 @@
 		486C20D12BBFD89100CC5DC3 /* Doughnut */ = {
 			isa = PBXGroup;
 			children = (
+				48713F662BE3118700FA4748 /* Shopping */,
+				48713F652BE3117D00FA4748 /* Map */,
+				489F36592BE2839600E0649B /* Main */,
 				4871B1B72BC6BD9800DFA64F /* Fonts */,
 				486C20E62BBFD8BC00CC5DC3 /* Login */,
-				486C20D22BBFD89100CC5DC3 /* AppDelegate.swift */,
-				486C20D42BBFD89100CC5DC3 /* SceneDelegate.swift */,
-				4871B1B52BC6BCD700DFA64F /* SettingCheck.swift */,
+				489F36582BE2833700E0649B /* Environment */,
 				486C20DB2BBFD89200CC5DC3 /* Assets.xcassets */,
 				486C20E02BBFD89200CC5DC3 /* Info.plist */,
+				48713F632BE3113700FA4748 /* DoughnutTabBarController.swift */,
 			);
 			path = Doughnut;
 			sourceTree = "<group>";
@@ -94,11 +108,27 @@
 		486C20E62BBFD8BC00CC5DC3 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				486C20D62BBFD89100CC5DC3 /* ViewController.swift */,
+				486C20D62BBFD89100CC5DC3 /* LoginViewController.swift */,
 				4885D4262BC6F1F2003868F5 /* MemberData.swift */,
 				48502AA82BC799F700F4F1D0 /* KakaoLoginManager.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		48713F652BE3117D00FA4748 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				48713F692BE311B400FA4748 /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		48713F662BE3118700FA4748 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				48713F672BE311A600FA4748 /* ShoppingViewController.swift */,
+			);
+			path = Shopping;
 			sourceTree = "<group>";
 		};
 		4871B1B72BC6BD9800DFA64F /* Fonts */ = {
@@ -111,6 +141,26 @@
 				4871B1C02BC6C1C500DFA64F /* FontExtend.swift */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		489F36582BE2833700E0649B /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				4871B1B52BC6BCD700DFA64F /* SettingCheck.swift */,
+				486C20D42BBFD89100CC5DC3 /* SceneDelegate.swift */,
+				486C20D22BBFD89100CC5DC3 /* AppDelegate.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		489F36592BE2839600E0649B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				489F365A2BE283B800E0649B /* MainViewController.swift */,
+				489F365C2BE2A1C300E0649B /* DoughnutTableCell.swift */,
+				48B210212BE2C9880030729F /* Item.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,13 +248,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				486C20D72BBFD89100CC5DC3 /* ViewController.swift in Sources */,
+				486C20D72BBFD89100CC5DC3 /* LoginViewController.swift in Sources */,
 				48502AA92BC799F700F4F1D0 /* KakaoLoginManager.swift in Sources */,
 				4871B1B62BC6BCD700DFA64F /* SettingCheck.swift in Sources */,
+				489F365D2BE2A1C300E0649B /* DoughnutTableCell.swift in Sources */,
+				48713F642BE3113700FA4748 /* DoughnutTabBarController.swift in Sources */,
 				4871B1C12BC6C1C500DFA64F /* FontExtend.swift in Sources */,
+				48713F6A2BE311B400FA4748 /* MapViewController.swift in Sources */,
+				48B210222BE2C9880030729F /* Item.swift in Sources */,
 				4885D4272BC6F1F2003868F5 /* MemberData.swift in Sources */,
 				486C20D32BBFD89100CC5DC3 /* AppDelegate.swift in Sources */,
 				486C20D52BBFD89100CC5DC3 /* SceneDelegate.swift in Sources */,
+				48713F682BE311A600FA4748 /* ShoppingViewController.swift in Sources */,
+				489F365B2BE283B800E0649B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
