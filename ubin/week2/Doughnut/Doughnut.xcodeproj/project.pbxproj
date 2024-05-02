@@ -7,9 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9043BDF2BDFCA8600A16FF3 /* SettingCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9043BDE2BDFCA8600A16FF3 /* SettingCheck.swift */; };
+		F9043BE02BDFFF2800A16FF3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9043BDC2BDFCA6400A16FF3 /* LoginViewController.swift */; };
+		F94F3EA62BE009EB00BA95C1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F94F3EA52BE009EB00BA95C1 /* SnapKit */; };
+		F94F3EA82BE009EB00BA95C1 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F94F3EA72BE009EB00BA95C1 /* SnapKit-Dynamic */; };
+		F94F3EAA2BE00BF100BA95C1 /* MemberData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F3EA92BE00BF100BA95C1 /* MemberData.swift */; };
+		F94F3EB52BE0C8F000BA95C1 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94F3EAB2BE0C8F000BA95C1 /* Pretendard-Black.otf */; };
+		F94F3EB62BE0C8F000BA95C1 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94F3EAC2BE0C8F000BA95C1 /* Pretendard-Bold.otf */; };
+		F94F3EB72BE0C8F000BA95C1 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94F3EAD2BE0C8F000BA95C1 /* Pretendard-ExtraBold.otf */; };
+		F94F3EB82BE0C8F000BA95C1 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94F3EAE2BE0C8F000BA95C1 /* Pretendard-ExtraLight.otf */; };
+		F94F3EB92BE0C8F000BA95C1 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94F3EAF2BE0C8F000BA95C1 /* Pretendard-Light.otf */; };
+		F94F3EBA2BE0C8F000BA95C1 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94F3EB02BE0C8F000BA95C1 /* Pretendard-Medium.otf */; };
+		F94F3EBB2BE0C8F000BA95C1 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94F3EB12BE0C8F000BA95C1 /* Pretendard-Regular.otf */; };
+		F94F3EBC2BE0C8F000BA95C1 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94F3EB22BE0C8F000BA95C1 /* Pretendard-SemiBold.otf */; };
+		F94F3EBD2BE0C8F000BA95C1 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94F3EB32BE0C8F000BA95C1 /* Pretendard-Thin.otf */; };
+		F94F3EBF2BE0C93B00BA95C1 /* FontExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F3EBE2BE0C93B00BA95C1 /* FontExtend.swift */; };
+		F96228832BE39D100033BE85 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96228822BE39D100033BE85 /* TableViewCell.swift */; };
+		F96D48222BE2C4D8002370D0 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F96D48212BE2C4D8002370D0 /* KakaoSDK */; };
+		F96D48242BE2C4D8002370D0 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F96D48232BE2C4D8002370D0 /* KakaoSDKAuth */; };
+		F96D48262BE2C4D8002370D0 /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = F96D48252BE2C4D8002370D0 /* KakaoSDKCert */; };
+		F96D48282BE2C4D8002370D0 /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = F96D48272BE2C4D8002370D0 /* KakaoSDKCertCore */; };
+		F96D482A2BE2C4D8002370D0 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = F96D48292BE2C4D8002370D0 /* KakaoSDKCommon */; };
+		F96D482C2BE2C66A002370D0 /* KakaoLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D482B2BE2C66A002370D0 /* KakaoLoginManager.swift */; };
+		F96D482F2BE2CA8F002370D0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D482E2BE2CA8F002370D0 /* MainViewController.swift */; };
+		F96D48312BE2D71E002370D0 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D48302BE2D71E002370D0 /* MainTableViewCell.swift */; };
+		F96D48332BE2E930002370D0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D48322BE2E930002370D0 /* Item.swift */; };
+		F96D48352BE3075C002370D0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D48342BE3075C002370D0 /* TabBarController.swift */; };
+		F96D48392BE309C7002370D0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D48382BE309C7002370D0 /* MapViewController.swift */; };
+		F96D483B2BE309EF002370D0 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D483A2BE309EF002370D0 /* BuyViewController.swift */; };
 		F98E65232BC926F0006C8380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98E65222BC926F0006C8380 /* AppDelegate.swift */; };
 		F98E65252BC926F0006C8380 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98E65242BC926F0006C8380 /* SceneDelegate.swift */; };
-		F98E65272BC926F0006C8380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98E65262BC926F0006C8380 /* ViewController.swift */; };
 		F98E652C2BC926F2006C8380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98E652B2BC926F2006C8380 /* Assets.xcassets */; };
 		F98E652F2BC926F2006C8380 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F98E652E2BC926F2006C8380 /* Base */; };
 		F98E653A2BC926F2006C8380 /* DoughnutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98E65392BC926F2006C8380 /* DoughnutTests.swift */; };
@@ -35,10 +62,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F9043BDC2BDFCA6400A16FF3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F9043BDE2BDFCA8600A16FF3 /* SettingCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCheck.swift; sourceTree = "<group>"; };
+		F94F3EA92BE00BF100BA95C1 /* MemberData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberData.swift; sourceTree = "<group>"; };
+		F94F3EAB2BE0C8F000BA95C1 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		F94F3EAC2BE0C8F000BA95C1 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		F94F3EAD2BE0C8F000BA95C1 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		F94F3EAE2BE0C8F000BA95C1 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		F94F3EAF2BE0C8F000BA95C1 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		F94F3EB02BE0C8F000BA95C1 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		F94F3EB12BE0C8F000BA95C1 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		F94F3EB22BE0C8F000BA95C1 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		F94F3EB32BE0C8F000BA95C1 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		F94F3EBE2BE0C93B00BA95C1 /* FontExtend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtend.swift; sourceTree = "<group>"; };
+		F96228822BE39D100033BE85 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F96D482B2BE2C66A002370D0 /* KakaoLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginManager.swift; sourceTree = "<group>"; };
+		F96D482E2BE2CA8F002370D0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F96D48302BE2D71E002370D0 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		F96D48322BE2E930002370D0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F96D48342BE3075C002370D0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F96D48382BE309C7002370D0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F96D483A2BE309EF002370D0 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		F98E651F2BC926F0006C8380 /* Doughnut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doughnut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98E65222BC926F0006C8380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F98E65242BC926F0006C8380 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F98E65262BC926F0006C8380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F98E652B2BC926F2006C8380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F98E652E2BC926F2006C8380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F98E65302BC926F2006C8380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +101,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94F3EA62BE009EB00BA95C1 /* SnapKit in Frameworks */,
+				F96D482A2BE2C4D8002370D0 /* KakaoSDKCommon in Frameworks */,
+				F94F3EA82BE009EB00BA95C1 /* SnapKit-Dynamic in Frameworks */,
+				F96D48282BE2C4D8002370D0 /* KakaoSDKCertCore in Frameworks */,
+				F96D48222BE2C4D8002370D0 /* KakaoSDK in Frameworks */,
+				F96D48242BE2C4D8002370D0 /* KakaoSDKAuth in Frameworks */,
+				F96D48262BE2C4D8002370D0 /* KakaoSDKCert in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +128,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9043BDD2BDFCA6400A16FF3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F9043BDC2BDFCA6400A16FF3 /* LoginViewController.swift */,
+				F94F3EA92BE00BF100BA95C1 /* MemberData.swift */,
+				F96D482B2BE2C66A002370D0 /* KakaoLoginManager.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F94F3EB42BE0C8F000BA95C1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F94F3EAB2BE0C8F000BA95C1 /* Pretendard-Black.otf */,
+				F94F3EAC2BE0C8F000BA95C1 /* Pretendard-Bold.otf */,
+				F94F3EAD2BE0C8F000BA95C1 /* Pretendard-ExtraBold.otf */,
+				F94F3EAE2BE0C8F000BA95C1 /* Pretendard-ExtraLight.otf */,
+				F94F3EAF2BE0C8F000BA95C1 /* Pretendard-Light.otf */,
+				F94F3EB02BE0C8F000BA95C1 /* Pretendard-Medium.otf */,
+				F94F3EB12BE0C8F000BA95C1 /* Pretendard-Regular.otf */,
+				F94F3EB22BE0C8F000BA95C1 /* Pretendard-SemiBold.otf */,
+				F94F3EB32BE0C8F000BA95C1 /* Pretendard-Thin.otf */,
+				F94F3EBE2BE0C93B00BA95C1 /* FontExtend.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F96D482D2BE2CA77002370D0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F96D482E2BE2CA8F002370D0 /* MainViewController.swift */,
+				F96228822BE39D100033BE85 /* TableViewCell.swift */,
+				F96D48302BE2D71E002370D0 /* MainTableViewCell.swift */,
+				F96D48322BE2E930002370D0 /* Item.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F96D48362BE30982002370D0 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F96D48382BE309C7002370D0 /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		F96D48372BE3098C002370D0 /* Buy */ = {
+			isa = PBXGroup;
+			children = (
+				F96D483A2BE309EF002370D0 /* BuyViewController.swift */,
+			);
+			path = Buy;
+			sourceTree = "<group>";
+		};
 		F98E65162BC926F0006C8380 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +205,15 @@
 		F98E65212BC926F0006C8380 /* Doughnut */ = {
 			isa = PBXGroup;
 			children = (
+				F96D48372BE3098C002370D0 /* Buy */,
+				F96D48362BE30982002370D0 /* Map */,
+				F96D482D2BE2CA77002370D0 /* Main */,
+				F94F3EB42BE0C8F000BA95C1 /* Fonts */,
+				F9043BDD2BDFCA6400A16FF3 /* Login */,
 				F98E65222BC926F0006C8380 /* AppDelegate.swift */,
+				F9043BDE2BDFCA8600A16FF3 /* SettingCheck.swift */,
 				F98E65242BC926F0006C8380 /* SceneDelegate.swift */,
-				F98E65262BC926F0006C8380 /* ViewController.swift */,
+				F96D48342BE3075C002370D0 /* TabBarController.swift */,
 				F98E652B2BC926F2006C8380 /* Assets.xcassets */,
 				F98E652D2BC926F2006C8380 /* LaunchScreen.storyboard */,
 				F98E65302BC926F2006C8380 /* Info.plist */,
@@ -140,6 +254,15 @@
 			dependencies = (
 			);
 			name = Doughnut;
+			packageProductDependencies = (
+				F94F3EA52BE009EB00BA95C1 /* SnapKit */,
+				F94F3EA72BE009EB00BA95C1 /* SnapKit-Dynamic */,
+				F96D48212BE2C4D8002370D0 /* KakaoSDK */,
+				F96D48232BE2C4D8002370D0 /* KakaoSDKAuth */,
+				F96D48252BE2C4D8002370D0 /* KakaoSDKCert */,
+				F96D48272BE2C4D8002370D0 /* KakaoSDKCertCore */,
+				F96D48292BE2C4D8002370D0 /* KakaoSDKCommon */,
+			);
 			productName = Doughnut;
 			productReference = F98E651F2BC926F0006C8380 /* Doughnut.app */;
 			productType = "com.apple.product-type.application";
@@ -212,6 +335,10 @@
 				Base,
 			);
 			mainGroup = F98E65162BC926F0006C8380;
+			packageReferences = (
+				F94F3EA42BE009EB00BA95C1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F96D48202BE2C4D8002370D0 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+			);
 			productRefGroup = F98E65202BC926F0006C8380 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -228,7 +355,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94F3EB82BE0C8F000BA95C1 /* Pretendard-ExtraLight.otf in Resources */,
 				F98E652C2BC926F2006C8380 /* Assets.xcassets in Resources */,
+				F94F3EB62BE0C8F000BA95C1 /* Pretendard-Bold.otf in Resources */,
+				F94F3EBA2BE0C8F000BA95C1 /* Pretendard-Medium.otf in Resources */,
+				F94F3EBB2BE0C8F000BA95C1 /* Pretendard-Regular.otf in Resources */,
+				F94F3EB72BE0C8F000BA95C1 /* Pretendard-ExtraBold.otf in Resources */,
+				F94F3EB92BE0C8F000BA95C1 /* Pretendard-Light.otf in Resources */,
+				F94F3EBC2BE0C8F000BA95C1 /* Pretendard-SemiBold.otf in Resources */,
+				F94F3EB52BE0C8F000BA95C1 /* Pretendard-Black.otf in Resources */,
+				F94F3EBD2BE0C8F000BA95C1 /* Pretendard-Thin.otf in Resources */,
 				F98E652F2BC926F2006C8380 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,9 +390,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F98E65272BC926F0006C8380 /* ViewController.swift in Sources */,
+				F96D48332BE2E930002370D0 /* Item.swift in Sources */,
+				F96D48352BE3075C002370D0 /* TabBarController.swift in Sources */,
+				F94F3EBF2BE0C93B00BA95C1 /* FontExtend.swift in Sources */,
+				F96D48392BE309C7002370D0 /* MapViewController.swift in Sources */,
+				F96D48312BE2D71E002370D0 /* MainTableViewCell.swift in Sources */,
+				F96228832BE39D100033BE85 /* TableViewCell.swift in Sources */,
+				F96D482C2BE2C66A002370D0 /* KakaoLoginManager.swift in Sources */,
+				F9043BDF2BDFCA8600A16FF3 /* SettingCheck.swift in Sources */,
+				F94F3EAA2BE00BF100BA95C1 /* MemberData.swift in Sources */,
 				F98E65232BC926F0006C8380 /* AppDelegate.swift in Sources */,
+				F9043BE02BDFFF2800A16FF3 /* LoginViewController.swift in Sources */,
 				F98E65252BC926F0006C8380 /* SceneDelegate.swift in Sources */,
+				F96D483B2BE309EF002370D0 /* BuyViewController.swift in Sources */,
+				F96D482F2BE2CA8F002370D0 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -413,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -437,6 +584,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +612,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -593,6 +742,63 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F94F3EA42BE009EB00BA95C1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		F96D48202BE2C4D8002370D0 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.22.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F94F3EA52BE009EB00BA95C1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F94F3EA42BE009EB00BA95C1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F94F3EA72BE009EB00BA95C1 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F94F3EA42BE009EB00BA95C1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		F96D48212BE2C4D8002370D0 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F96D48202BE2C4D8002370D0 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		F96D48232BE2C4D8002370D0 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F96D48202BE2C4D8002370D0 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		F96D48252BE2C4D8002370D0 /* KakaoSDKCert */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F96D48202BE2C4D8002370D0 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCert;
+		};
+		F96D48272BE2C4D8002370D0 /* KakaoSDKCertCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F96D48202BE2C4D8002370D0 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCertCore;
+		};
+		F96D48292BE2C4D8002370D0 /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F96D48202BE2C4D8002370D0 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F98E65172BC926F0006C8380 /* Project object */;
 }
