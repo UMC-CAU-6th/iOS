@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
     
     private lazy var settingCheck = SettingCheck()
     private lazy var kakaoLoginManager = KakaoLoginManager()
@@ -239,7 +239,7 @@ class ViewController: UIViewController {
         let saveMember = MemberData.loadMember()
         
         if (memberId.text == saveMember.userId) && (memberPw.text == saveMember.userPw) {
-            checkLogin(for: "일반 로그인에 성공했습니다.")
+            changeRootView()
         } else {
             print("회원정보 틀림!!")
             print(saveMember.userId)
@@ -257,7 +257,7 @@ class ViewController: UIViewController {
             case .success(let oauthToken):
                 print("로그인 성공")
                 print("토큰 정보 : \(oauthToken)")
-                self?.checkLogin(for: "카카오톡 로그인에 성공했습니다.")
+                self?.changeRootView()
             case .failure(let error):
                 print("로그인 에러 : \(error)")
             }
@@ -278,5 +278,18 @@ class ViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
     
+    // MARK: - ChangeRootView
+    
+    /// 루트뷰 전환 함수
+    private func changeRootView() {
+        let rootVC = DoughnutTabBarController()
+        
+        if let window = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+           let sceneDelegate = window.delegate as? SceneDelegate,
+           let window = sceneDelegate.window {
+            window.rootViewController = rootVC
+            UIView.transition(with: window, duration: 0.3, options: .transitionCrossDissolve, animations: nil, completion: nil)
+        }
+    }
     
 }
