@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Doughnut
+//  collectionviewPractice
 //
-//  Created by 황유빈 on 4/12/24.
+//  Created by 황유빈 on 4/30/24.
 //
 
 import UIKit
