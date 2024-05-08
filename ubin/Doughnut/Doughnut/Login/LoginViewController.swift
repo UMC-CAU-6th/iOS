@@ -144,7 +144,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        super.view.backgroundColor = .white
+        self.view.backgroundColor = .white
         
         /* 회원 정보 저장 */
         member.setMember()
@@ -259,7 +259,7 @@ class LoginViewController: UIViewController {
         let saveMember = MemberData.loadMember()
         
         if(memberID.text == saveMember.userId) && (memberPW.text == saveMember.userPw) {
-            checkLogin(for: "Let's travel the donuts world!")
+            checkLogin()
         } else {
             print("Wrong ID or PW")
         }
@@ -276,7 +276,7 @@ class LoginViewController: UIViewController {
             case .success(let oauthToken):
                 print("로그인 성공")
                 print("토큰 정보 : \(oauthToken)")
-                self?.checkLogin(for: "카카오톡 로그인에 성공했습니다.")
+                self?.checkLogin()
             case .failure(let error):
                 print("로그인 에러 : \(error)")
             }
@@ -287,14 +287,14 @@ class LoginViewController: UIViewController {
     // MARK: - Alert
     
     /// 로그인 성공시 작동하게 될 Alert
-    private func checkLogin(for title: String) {
-        let alert = UIAlertController(title: "login", message: title, preferredStyle: .alert)
-        
-        let successAction = UIAlertAction(title: "확인", style: .default) { _ in
-            print("알림창 확인 누름")
+    private func checkLogin() {
+        let rootVC = TabBarController()
+        let sceneDelegate = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate
+        guard let delegate = sceneDelegate else {
+            // 에러 알림
+            print("rootViewController 전환 Error")
+            return
         }
-        
-        alert.addAction(successAction)
-        self.present(alert, animated: true, completion: nil)
+        delegate.window?.rootViewController = rootVC
     }
 }
