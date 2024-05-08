@@ -31,6 +31,7 @@
 		489F365B2BE283B800E0649B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489F365A2BE283B800E0649B /* MainViewController.swift */; };
 		489F365D2BE2A1C300E0649B /* DoughnutTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489F365C2BE2A1C300E0649B /* DoughnutTableCell.swift */; };
 		48B210222BE2C9880030729F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B210212BE2C9880030729F /* Item.swift */; };
+		48D3C43E2BEB73E800CC8664 /* BarItemNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D3C43D2BEB73E800CC8664 /* BarItemNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		489F365A2BE283B800E0649B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		489F365C2BE2A1C300E0649B /* DoughnutTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutTableCell.swift; sourceTree = "<group>"; };
 		48B210212BE2C9880030729F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		48D3C43D2BEB73E800CC8664 /* BarItemNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarItemNavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,6 @@
 				489F36582BE2833700E0649B /* Environment */,
 				486C20DB2BBFD89200CC5DC3 /* Assets.xcassets */,
 				486C20E02BBFD89200CC5DC3 /* Info.plist */,
-				48713F632BE3113700FA4748 /* DoughnutTabBarController.swift */,
 			);
 			path = Doughnut;
 			sourceTree = "<group>";
@@ -149,6 +150,7 @@
 				4871B1B52BC6BCD700DFA64F /* SettingCheck.swift */,
 				486C20D42BBFD89100CC5DC3 /* SceneDelegate.swift */,
 				486C20D22BBFD89100CC5DC3 /* AppDelegate.swift */,
+				48713F632BE3113700FA4748 /* DoughnutTabBarController.swift */,
 			);
 			path = Environment;
 			sourceTree = "<group>";
@@ -159,6 +161,7 @@
 				489F365A2BE283B800E0649B /* MainViewController.swift */,
 				489F365C2BE2A1C300E0649B /* DoughnutTableCell.swift */,
 				48B210212BE2C9880030729F /* Item.swift */,
+				48D3C43D2BEB73E800CC8664 /* BarItemNavigationViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				4871B1B62BC6BCD700DFA64F /* SettingCheck.swift in Sources */,
 				489F365D2BE2A1C300E0649B /* DoughnutTableCell.swift in Sources */,
 				48713F642BE3113700FA4748 /* DoughnutTabBarController.swift in Sources */,
+				48D3C43E2BEB73E800CC8664 /* BarItemNavigationViewController.swift in Sources */,
 				4871B1C12BC6C1C500DFA64F /* FontExtend.swift in Sources */,
 				48713F6A2BE311B400FA4748 /* MapViewController.swift in Sources */,
 				48B210222BE2C9880030729F /* Item.swift in Sources */,

@@ -10,7 +10,8 @@ import SnapKit
 
 class MainViewController: UIViewController{
     
-    let doughnutData: [Item] = DoughnutData.dataList
+    private var doughnutData: [Item] = DoughnutData.dataList
+    private lazy var barItemNavigationVC = BarItemNavigationViewController()
     
     
     // MARK: - Property
@@ -136,7 +137,8 @@ class MainViewController: UIViewController{
     }
     
     @objc func clicedTown() {
-        self.alertMessage(for: "장소 버튼을 눌렀어요!")
+        barItemNavigationVC.modalPresentationStyle = .fullScreen
+        self.present(barItemNavigationVC, animated: true)
     }
     
 }
@@ -161,5 +163,38 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         return 130
     }
     
-    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        
+        let moveToTop = UIContextualAction(style: .normal, title: "상단 이동") { [weak self] (action, view, completionHandler) in
+            guard let self = self else {
+                completionHandler(false)
+                return
+            }
+            
+            let item = self.doughnutData.remove(at: indexPath.row)
+            self.doughnutData.insert(item, at: 0)
+            tableView.moveRow(at: indexPath, to: IndexPath(row: 0, section: indexPath.section))
+            
+            completionHandler(true)
+        }
+        
+        moveToTop.backgroundColor = .blue
+        
+        let deleteAction = UIContextualAction(style: .destructive, title: "삭제")  { [weak self] (action, view, completionHandler) in
+            guard let self = self else {
+                completionHandler(false)
+                return
+            }
+            self.doughnutData.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+            
+            completionHandler(true)
+        }
+        deleteAction.backgroundColor = .red
+        
+        
+        let configuration = UISwipeActionsConfiguration(actions: [moveToTop, deleteAction])
+        configuration.performsFirstActionWithFullSwipe = false
+        return configuration
+    }
 }
