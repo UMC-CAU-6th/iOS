@@ -19,6 +19,7 @@ class TabBarController: UITabBarController {
 
             
         firstVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"),selectedImage: UIImage(systemName: "house.fill"))
+        firstVC.tabBarItem.badgeValue = "1"
         
         secondVC.tabBarItem = UITabBarItem(title: "Map", image: UIImage(systemName: "map"),selectedImage: UIImage(systemName: "map.fill"))
         

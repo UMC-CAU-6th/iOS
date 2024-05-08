@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F9043BDF2BDFCA8600A16FF3 /* SettingCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9043BDE2BDFCA8600A16FF3 /* SettingCheck.swift */; };
 		F9043BE02BDFFF2800A16FF3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9043BDC2BDFCA6400A16FF3 /* LoginViewController.swift */; };
+		F93C32AF2BEC0932005EF43B /* SheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C32AE2BEC0932005EF43B /* SheetViewController.swift */; };
 		F94F3EA62BE009EB00BA95C1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F94F3EA52BE009EB00BA95C1 /* SnapKit */; };
 		F94F3EA82BE009EB00BA95C1 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F94F3EA72BE009EB00BA95C1 /* SnapKit-Dynamic */; };
 		F94F3EAA2BE00BF100BA95C1 /* MemberData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F3EA92BE00BF100BA95C1 /* MemberData.swift */; };
@@ -63,6 +64,7 @@
 /* Begin PBXFileReference section */
 		F9043BDC2BDFCA6400A16FF3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F9043BDE2BDFCA8600A16FF3 /* SettingCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCheck.swift; sourceTree = "<group>"; };
+		F93C32AE2BEC0932005EF43B /* SheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewController.swift; sourceTree = "<group>"; };
 		F94F3EA92BE00BF100BA95C1 /* MemberData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberData.swift; sourceTree = "<group>"; };
 		F94F3EAB2BE0C8F000BA95C1 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
 		F94F3EAC2BE0C8F000BA95C1 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				F96D482E2BE2CA8F002370D0 /* MainViewController.swift */,
 				F96D48302BE2D71E002370D0 /* MainTableViewCell.swift */,
 				F96D48322BE2E930002370D0 /* Item.swift */,
+				F93C32AE2BEC0932005EF43B /* SheetViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				F94F3EAA2BE00BF100BA95C1 /* MemberData.swift in Sources */,
 				F98E65232BC926F0006C8380 /* AppDelegate.swift in Sources */,
 				F9043BE02BDFFF2800A16FF3 /* LoginViewController.swift in Sources */,
+				F93C32AF2BEC0932005EF43B /* SheetViewController.swift in Sources */,
 				F98E65252BC926F0006C8380 /* SceneDelegate.swift in Sources */,
 				F96D483B2BE309EF002370D0 /* BuyViewController.swift in Sources */,
 				F96D482F2BE2CA8F002370D0 /* MainViewController.swift in Sources */,
