@@ -17,7 +17,7 @@ class MainViewController: UIViewController {
         view.delegate = self
         view.dataSource = self
         view.refreshControl = UIRefreshControl()
-        view.refreshControl?.addTarget(self, action: #selector(refreshAction), for: .editingChanged)
+        view.refreshControl?.addTarget(self, action: #selector(refreshAction), for: .valueChanged)
         return view
     }()
     
@@ -50,7 +50,7 @@ class MainViewController: UIViewController {
     
     private lazy var thirdButton: UIBarButtonItem = {
         let thirdButton = UIBarButtonItem(image: UIImage(systemName: "bell"), style: .plain, target: self, action: #selector(clickedThirdBtn))
-        return secondButton
+        return thirdButton
     }()
 
     
@@ -137,16 +137,18 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        let delete = UIContextualAction(style: .normal, title: "셀 삭제") { (_, _, success: @escaping (Bool) -> Void) in
+        let delete = UIContextualAction(style: .normal, title: "셀 삭제", handler: { action , view, completionHandler in
             ///원하는 액션 추가
             self.item.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
-        }
+            completionHandler(true)
+        })
         
-        let top = UIContextualAction(style: .normal, title: "가장 위로") { (_, _, success: @escaping (Bool) -> Void) in
+        let top = UIContextualAction(style: .normal, title: "가장 위로", handler: { action , view, completionHandler in
             ///원하는 액션 추가
             tableView.moveRow(at: indexPath, to: IndexPath(row: 0, section: 0))
-        }
+            completionHandler(true)
+        })
         
         ///각 ContextualAction 대한 설정
         delete.backgroundColor = .systemBlue
