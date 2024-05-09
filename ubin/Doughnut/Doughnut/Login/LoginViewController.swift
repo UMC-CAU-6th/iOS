@@ -127,7 +127,7 @@ class LoginViewController: UIViewController {
     }
     
     private lazy var titleStack: UIStackView = {
-        return createStackView(5, .fillEqually)
+        return createStackView(0, .fillEqually)
     }()
     
     private lazy var loginStack: UIStackView = {
@@ -183,17 +183,17 @@ class LoginViewController: UIViewController {
     private func makeConstraints() {
         ///타이틀 이미지
         titleImage.snp.makeConstraints { make in
-            make.leading.equalTo(view.safeAreaLayoutGuide).offset(0)
-            make.trailing.equalTo(view.safeAreaLayoutGuide).offset(0)
-            make.top.equalTo(view.safeAreaLayoutGuide).offset(3)
-            make.height.lessThanOrEqualTo(328)
+            make.leading.equalToSuperview().offset(0)
+            make.trailing.equalToSuperview().offset(0)
+            make.top.equalTo(view.safeAreaLayoutGuide).offset(0)
+            make.height.lessThanOrEqualTo(399)
         }
         
         ///타이틀 문구
         titleStack.snp.makeConstraints { make in
-            make.top.equalTo(titleImage.snp.bottom).offset(15)
-            make.bottom.equalTo(loginStack.snp.top).offset(-15)
-            make.height.lessThanOrEqualTo(140)
+            make.top.equalTo(titleImage.snp.bottom).offset(0)
+            make.bottom.equalTo(loginStack.snp.top).offset(-10)
+            make.height.lessThanOrEqualTo(160)
             make.centerX.equalToSuperview()
             
             subTitle.snp.makeConstraints { make in
@@ -201,11 +201,11 @@ class LoginViewController: UIViewController {
             }
             loginTitle.snp.makeConstraints { make in
                 make.leading.trailing.equalToSuperview()
-                make.top.equalTo(subTitle.snp.bottom).offset(5)
+                make.top.equalTo(subTitle.snp.bottom).offset(0)
             }
             subTitle2.snp.makeConstraints { make in
                 make.leading.trailing.equalToSuperview()
-                make.top.equalTo(loginTitle.snp.bottom).offset(5)
+                make.top.equalTo(loginTitle.snp.bottom).offset(0)
             }
         }
         
