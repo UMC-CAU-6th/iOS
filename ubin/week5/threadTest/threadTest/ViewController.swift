@@ -31,13 +31,26 @@ class ViewController: UIViewController {
         button.addTarget(self, action: #selector(clickedButton), for: .touchUpInside)
         return button
     }()
+    
+    private lazy var backView: UIView = {
+        let backView = UIView()
+        backView.layer.cornerRadius = 12
+        backView.backgroundColor = .white
+        backView.layer.borderWidth = 1
+        backView.layer.borderColor = UIColor.black.cgColor
+        
+        return backView
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = .white
+        self.view.addSubview(backView)
         self.view.addSubview(timer)
         self.view.addSubview(button)
+        self.view.bringSubviewToFront(timer)
+        self.view.bringSubviewToFront(button)
         makeConstraints()
     }
     
@@ -57,6 +70,14 @@ class ViewController: UIViewController {
             make.height.greaterThanOrEqualTo(30)
             make.width.lessThanOrEqualTo(200)
             make.centerX.equalToSuperview()
+        }
+        
+        ///뒤에 뷰
+        backView.snp.makeConstraints { make in
+            make.height.equalTo(300)
+            make.width.equalTo(300)
+            make.centerX.equalToSuperview()
+            make.centerY.equalToSuperview()
         }
     }
     
