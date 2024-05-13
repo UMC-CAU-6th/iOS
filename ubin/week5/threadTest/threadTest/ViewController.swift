@@ -41,13 +41,8 @@ class ViewController: UIViewController {
         return backView
     }()
     
-    private lazy var innerView: UIView = {
-        let backView = UIView()
-        backView.layer.cornerRadius = 12
-        backView.layer.masksToBounds = true
-        backView.backgroundColor = .white
-        backView.layer.borderWidth = 1
-        backView.layer.borderColor = UIColor.black.cgColor
+    private lazy var innerView: CustomView = {
+        let backView = CustomView()
         return backView
     }()
 
