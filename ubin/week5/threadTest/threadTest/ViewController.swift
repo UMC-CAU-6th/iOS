@@ -34,11 +34,20 @@ class ViewController: UIViewController {
     
     private lazy var backView: UIView = {
         let backView = UIView()
+        backView.layer.shadowColor = UIColor.gray.cgColor
+        backView.layer.shadowOffset = .zero
+        backView.layer.shadowRadius = 10
+        backView.layer.shadowOpacity = 0.9
+        return backView
+    }()
+    
+    private lazy var innerView: UIView = {
+        let backView = UIView()
         backView.layer.cornerRadius = 12
+        backView.layer.masksToBounds = true
         backView.backgroundColor = .white
         backView.layer.borderWidth = 1
         backView.layer.borderColor = UIColor.black.cgColor
-        
         return backView
     }()
 
@@ -46,6 +55,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = .white
+        self.backView.addSubview(innerView)
         self.view.addSubview(backView)
         self.view.addSubview(timer)
         self.view.addSubview(button)
@@ -74,6 +84,14 @@ class ViewController: UIViewController {
         
         ///뒤에 뷰
         backView.snp.makeConstraints { make in
+            make.height.equalTo(300)
+            make.width.equalTo(300)
+            make.centerX.equalToSuperview()
+            make.centerY.equalToSuperview()
+        }
+        
+        ///이너 뷰
+        innerView.snp.makeConstraints { make in
             make.height.equalTo(300)
             make.width.equalTo(300)
             make.centerX.equalToSuperview()
