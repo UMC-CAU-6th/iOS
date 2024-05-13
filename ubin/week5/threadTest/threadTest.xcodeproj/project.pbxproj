@@ -17,6 +17,7 @@
 		F91C52632BF2177900340B62 /* threadTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C52622BF2177900340B62 /* threadTestUITestsLaunchTests.swift */; };
 		F91C52762BF21F5200340B62 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F91C52752BF21F5200340B62 /* SnapKit */; };
 		F91C52782BF21F5200340B62 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F91C52772BF21F5200340B62 /* SnapKit-Dynamic */; };
+		F91C528B2BF2402E00340B62 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C528A2BF2402E00340B62 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F91C525C2BF2177900340B62 /* threadTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = threadTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91C52602BF2177900340B62 /* threadTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threadTestUITests.swift; sourceTree = "<group>"; };
 		F91C52622BF2177900340B62 /* threadTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threadTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F91C528A2BF2402E00340B62 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				F91C52482BF2177900340B62 /* Assets.xcassets */,
 				F91C524A2BF2177900340B62 /* LaunchScreen.storyboard */,
 				F91C524D2BF2177900340B62 /* Info.plist */,
+				F91C528A2BF2402E00340B62 /* CustomView.swift */,
 			);
 			path = threadTest;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F91C52442BF2177700340B62 /* ViewController.swift in Sources */,
+				F91C528B2BF2402E00340B62 /* CustomView.swift in Sources */,
 				F91C52402BF2177700340B62 /* AppDelegate.swift in Sources */,
 				F91C52422BF2177700340B62 /* SceneDelegate.swift in Sources */,
 			);
