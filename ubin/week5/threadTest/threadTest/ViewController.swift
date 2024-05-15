@@ -25,9 +25,19 @@ class ViewController: UIViewController {
     
     private lazy var button: UIButton = {
         var button = UIButton()
-        button.backgroundColor = .systemBlue
-        button.setTitle(" Timer Start ", for: .normal)
-        button.titleLabel?.font = UIFont.systemFont(ofSize: 20, weight: .regular)
+        
+        
+        /*버튼 Configuration*/
+        var btnConfig = UIButton.Configuration.filled()
+        var titleContainer = AttributeContainer()
+        titleContainer.font = UIFont.systemFont(ofSize: 16, weight: .bold)
+        btnConfig.attributedTitle = AttributedString(" Timer Start ", attributes:titleContainer)
+        btnConfig.baseBackgroundColor = .systemBlue
+        btnConfig.background.cornerRadius = 47
+        btnConfig.baseForegroundColor = .white
+      
+        button.configuration = btnConfig
+        
         button.addTarget(self, action: #selector(clickedButton), for: .touchUpInside)
         return button
     }()
@@ -43,24 +53,71 @@ class ViewController: UIViewController {
     
     private lazy var innerView: CustomView = {
         let backView = CustomView()
+        backView.backgroundColor = .white
         return backView
     }()
+    
+    private lazy var orangeView: CustomView = {
+        let backView = CustomView()
+        backView.backgroundColor = .orange
+        return backView
+    }()
+    
+    private lazy var redView: CustomView = {
+        let backView = CustomView()
+        backView.backgroundColor = .red
+        return backView
+    }()
+    
+    // MARK: - Segmented Control
+    private lazy var segmentedControl: UISegmentedControl = {
+        let control = UISegmentedControl(items: ["normal", "orange", "red"])
+        control.backgroundColor = UIColor.gray
+        control.tintColor = UIColor.white
+        
+        control.addTarget(self, action: #selector(segmentChanged), for: .valueChanged)
+        
+        return control
+      }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.view.backgroundColor = .white
-        self.backView.addSubview(innerView)
+        segmentbtn()
+    }
+    
+    // MARK: - Configuration
+    
+    private func changeView(_ idx: Int) {
+        switch idx {
+        case 0:
+            makeConstraints(view: innerView)
+        case 1:
+            makeConstraints(view: orangeView)
+        case 2:
+            makeConstraints(view: redView)
+        default:
+            return self.view.backgroundColor = .white
+        }
+    }
+    
+    private func segmentbtn() {
+        self.view.addSubview(segmentedControl)
+        segmentedControl.snp.makeConstraints { make in
+            make.height.lessThanOrEqualTo(40)
+            make.width.lessThanOrEqualTo(300)
+            make.top.equalToSuperview().offset(200)
+            make.centerX.equalToSuperview()
+        }
+    }
+    
+    private func makeConstraints(view: UIView) {
         self.view.addSubview(backView)
+        self.backView.addSubview(view)
         self.view.addSubview(timer)
         self.view.addSubview(button)
         self.view.bringSubviewToFront(timer)
         self.view.bringSubviewToFront(button)
-        makeConstraints()
-    }
-    
-    // MARK: - Configuration
-    private func makeConstraints() {
         ///타이머 Label
         timer.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
@@ -86,7 +143,7 @@ class ViewController: UIViewController {
         }
         
         ///이너 뷰
-        innerView.snp.makeConstraints { make in
+        view.snp.makeConstraints { make in
             make.height.equalTo(300)
             make.width.equalTo(300)
             make.centerX.equalToSuperview()
@@ -118,6 +175,10 @@ class ViewController: UIViewController {
                 }
             }
         }
+    }
+
+    @objc private func segmentChanged(segment: UISegmentedControl) {
+        changeView(segment.selectedSegmentIndex)
     }
 }
 
