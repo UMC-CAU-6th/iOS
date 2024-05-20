@@ -12,7 +12,7 @@ class LoginViewController: UIViewController {
     
     private lazy var settingCheck = SettingCheck()
     private lazy var kakaoLoginManager = KakaoLoginManager()
-    private let member = MemberData(userId: "UMC", userPw: "q1234")
+    private let member = MemberData(userId: "UMC", userPw: "1234")
     
     
     //MARK: - Title
@@ -255,8 +255,6 @@ class LoginViewController: UIViewController {
         kakaoLoginManager.login { [weak self] result in
             switch result {
             case .success(let oauthToken):
-                print("로그인 성공")
-                print("토큰 정보 : \(oauthToken)")
                 self?.changeRootView()
             case .failure(let error):
                 print("로그인 에러 : \(error)")
