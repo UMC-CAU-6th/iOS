@@ -32,6 +32,8 @@
 		489F365D2BE2A1C300E0649B /* DoughnutTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489F365C2BE2A1C300E0649B /* DoughnutTableCell.swift */; };
 		48B210222BE2C9880030729F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B210212BE2C9880030729F /* Item.swift */; };
 		48D3C43E2BEB73E800CC8664 /* BarItemNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D3C43D2BEB73E800CC8664 /* BarItemNavigationViewController.swift */; };
+		48F2B9EF2BFB633800369CC7 /* AdvertisementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F2B9EE2BFB633800369CC7 /* AdvertisementCell.swift */; };
+		48F2B9F22BFB63D300369CC7 /* CollectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F2B9F12BFB63D300369CC7 /* CollectionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		489F365C2BE2A1C300E0649B /* DoughnutTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutTableCell.swift; sourceTree = "<group>"; };
 		48B210212BE2C9880030729F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		48D3C43D2BEB73E800CC8664 /* BarItemNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarItemNavigationViewController.swift; sourceTree = "<group>"; };
+		48F2B9EE2BFB633800369CC7 /* AdvertisementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementCell.swift; sourceTree = "<group>"; };
+		48F2B9F12BFB63D300369CC7 /* CollectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 		48713F662BE3118700FA4748 /* Shopping */ = {
 			isa = PBXGroup;
 			children = (
+				48F2B9F02BFB63C300369CC7 /* DataGroup */,
+				48F2B9ED2BFB625700369CC7 /* CellGroup */,
 				48713F672BE311A600FA4748 /* ShoppingViewController.swift */,
 			);
 			path = Shopping;
@@ -164,6 +170,22 @@
 				48D3C43D2BEB73E800CC8664 /* BarItemNavigationViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		48F2B9ED2BFB625700369CC7 /* CellGroup */ = {
+			isa = PBXGroup;
+			children = (
+				48F2B9EE2BFB633800369CC7 /* AdvertisementCell.swift */,
+			);
+			path = CellGroup;
+			sourceTree = "<group>";
+		};
+		48F2B9F02BFB63C300369CC7 /* DataGroup */ = {
+			isa = PBXGroup;
+			children = (
+				48F2B9F12BFB63D300369CC7 /* CollectionData.swift */,
+			);
+			path = DataGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +277,8 @@
 				48502AA92BC799F700F4F1D0 /* KakaoLoginManager.swift in Sources */,
 				4871B1B62BC6BCD700DFA64F /* SettingCheck.swift in Sources */,
 				489F365D2BE2A1C300E0649B /* DoughnutTableCell.swift in Sources */,
+				48F2B9EF2BFB633800369CC7 /* AdvertisementCell.swift in Sources */,
+				48F2B9F22BFB63D300369CC7 /* CollectionData.swift in Sources */,
 				48713F642BE3113700FA4748 /* DoughnutTabBarController.swift in Sources */,
 				48D3C43E2BEB73E800CC8664 /* BarItemNavigationViewController.swift in Sources */,
 				4871B1C12BC6C1C500DFA64F /* FontExtend.swift in Sources */,

@@ -21,7 +21,7 @@ class DoughnutTabBarController: UITabBarController {
         firstVC.tabBarItem = UITabBarItem(title: "home", image: UIImage(systemName: "house"), tag: 1)
         firstVC.tabBarItem.badgeValue = "3"
         
-        let secondVC = ShoppingViewController()
+        let secondVC = UINavigationController(rootViewController: ShoppingViewController())
         secondVC.tabBarItem = UITabBarItem(title: "shopping", image: UIImage(systemName: "basket"), tag: 2)
         
         let thirdVC = MapViewController()
