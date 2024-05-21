@@ -11,6 +11,8 @@ import SnapKit
 class ShoppingViewController: UIViewController {
     
     let adverData = AdverDataClass.dataLists
+    let productData = AdverDataClass.productList
+    let bestItem = AdverDataClass.bestItem
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +53,33 @@ class ShoppingViewController: UIViewController {
         collection.dataSource = self
         collection.delegate = self
         collection.register(AdvertisementCell.self, forCellWithReuseIdentifier: AdvertisementCell.identifier)
+        collection.tag = 1
+        
+        return collection
+    }()
+    
+    private lazy var supplyCollectionView: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        
+        let collection = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        collection.delegate = self
+        collection.dataSource = self
+        collection.register(BestProductCell.self, forCellWithReuseIdentifier: BestProductCell.identifier)
+        collection.tag = 2
+        
+        return collection
+    }()
+    
+    private lazy var bestItemCollectionView: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        
+        let collection = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        collection.delegate = self
+        collection.dataSource = self
+        collection.register(BestItemCell.self, forCellWithReuseIdentifier: BestItemCell.identifier)
+        collection.tag = 3
         
         return collection
     }()
@@ -74,6 +103,8 @@ class ShoppingViewController: UIViewController {
     private func contentsAddComponent() {
         self.contentsView.addSubview(titleHeader)
         self.contentsView.addSubview(advertisementCollectionView)
+        self.contentsView.addSubview(supplyCollectionView)
+        self.contentsView.addSubview(bestItemCollectionView)
     }
     
     
@@ -88,7 +119,7 @@ class ShoppingViewController: UIViewController {
         contentsView.snp.makeConstraints { make in
             make.edges.equalTo(mainScrollView)
             make.width.equalTo(mainScrollView)
-            make.height.equalToSuperview()
+            make.height.greaterThanOrEqualToSuperview()
         }
     }
     
@@ -108,6 +139,20 @@ class ShoppingViewController: UIViewController {
             make.width.equalToSuperview()
             make.height.lessThanOrEqualTo(200)
         }
+        
+        supplyCollectionView.snp.makeConstraints{ make in
+            make.top.equalTo(advertisementCollectionView.snp.bottom).offset(15)
+            make.left.equalToSuperview().offset(10)
+            make.right.equalToSuperview().offset(-10)
+            make.height.lessThanOrEqualTo(280)
+        }
+        
+        bestItemCollectionView.snp.makeConstraints{ make in
+            make.top.equalTo(supplyCollectionView.snp.bottom).offset(5)
+            make.left.equalToSuperview().offset(10)
+            make.right.equalToSuperview().offset(-10)
+            make.height.greaterThanOrEqualTo(1000)
+        }
     }
 }
 
@@ -123,15 +168,47 @@ extension ShoppingViewController: UIScrollViewDelegate {
 extension ShoppingViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return adverData.count
+        switch collectionView.tag {
+        case 1:
+            return adverData.count
+        case 2:
+            return productData.count
+        case 3:
+            return bestItem.count
+        default:
+            return 0
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AdvertisementCell.identifier, for: indexPath) as? AdvertisementCell else { return UICollectionViewCell() }
         
-        cell.configure(model: adverData[indexPath.item])
+        switch collectionView.tag {
+        case 1:
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AdvertisementCell.identifier, for: indexPath) as? AdvertisementCell else { return UICollectionViewCell() }
+            
+            cell.configure(model: adverData[indexPath.item], radius: 10)
+            
+            return cell
+            
+        case 2:
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: BestProductCell.identifier, for: indexPath) as? BestProductCell else { return UICollectionViewCell() }
+            
+            cell.configure(model: productData[indexPath.item], radius: 40)
+            
+            
+            return cell
+            
+        case 3:
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: BestItemCell.identifier, for: indexPath) as? BestItemCell else { return BestItemCell() }
+            
+            cell.configure(model: bestItem[indexPath.item])
+            
+            return cell
+            
+        default:
+            return UICollectionViewCell()
+        }
         
-        return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
@@ -139,11 +216,32 @@ extension ShoppingViewController: UICollectionViewDelegate, UICollectionViewData
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let advertisement = adverData[indexPath.item]
-        let height = collectionView.bounds.height
-        let width = advertisement.imageName?.size.width // Default width if image size is not available
-        let aspectRatio = (advertisement.imageName?.size.width ?? 1) / (advertisement.imageName?.size.height ?? 1)
+        switch collectionView.tag {
+        case 1:
+            let advertisement = adverData[indexPath.item]
+            let height = collectionView.bounds.height
+            let aspectRatio = (advertisement.imageName?.size.width ?? 1) / (advertisement.imageName?.size.height ?? 1)
+            
+            return CGSize(width: height * aspectRatio, height: height)
+        case 2:
+            return imageCGSize(collectionView, row: 4, spacing: 10, height: 100)
+            
+        case 3:
+            return imageCGSize(collectionView, row: 2, spacing: 10, height: 200)
+            
+        default:
+            return CGSize(width: 0, height: 0)
+        }
+    }
+    
+    func imageCGSize(_ collectionView: UICollectionView, row: CGFloat, spacing: CGFloat, height: CGFloat) -> CGSize {
+        let numberOfItemsPerRow: CGFloat = row
+        let spacingBetweenItems: CGFloat = spacing
+        let totalSpacing = (2 * spacingBetweenItems) + ((numberOfItemsPerRow - 1) * spacingBetweenItems)
         
-        return CGSize(width: height * aspectRatio, height: height)
+        let width = (collectionView.bounds.width - totalSpacing) / numberOfItemsPerRow
+        let height: CGFloat = height
+        
+        return CGSize(width: width, height: height)
     }
 }

@@ -10,7 +10,7 @@ import SnapKit
 
 class AdvertisementCell: UICollectionViewCell {
     
-    static let identifier = "a"
+    static let identifier = "advertisementCell"
     
     // MARK: - init
     
@@ -25,19 +25,29 @@ class AdvertisementCell: UICollectionViewCell {
     
     // MARK: - Property
     
-    private lazy var advertiseImageView: UIImageView = {
+    public lazy var advertiseImageView: UIImageView = {
         let view = UIImageView()
         view.contentMode = .scaleAspectFill
-        view.layer.cornerRadius = 10
         view.layer.masksToBounds = true
         return view
     }()
     
-    private func addComponent() {
+    public lazy var imageNameLabel: UILabel = {
+        var label = UILabel()
+        label.font = UIFont.pretendard(size: 14, weight: .medium)
+        label.textColor = UIColor.black
+        label.textAlignment = .center
+        label.numberOfLines = 0
+        label.lineBreakMode = .byWordWrapping
+        
+        return label
+    }()
+    
+    public func addComponent() {
         self.addSubview(advertiseImageView)
     }
     
-    private func makeContraints() {
+    public func makeContraints() {
         addComponent()
         
         advertiseImageView.snp.makeConstraints{ make in
@@ -45,9 +55,10 @@ class AdvertisementCell: UICollectionViewCell {
         }
     }
     
-    public func configure(model: AdvertisementData) {
+    public func configure(model: AdvertisementData, radius: CGFloat) {
         
         self.advertiseImageView.image = model.imageName
+        self.advertiseImageView.layer.cornerRadius = radius
     }
     
 }
