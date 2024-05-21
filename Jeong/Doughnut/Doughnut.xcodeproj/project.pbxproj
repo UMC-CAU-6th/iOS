@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		483E16B02BFC0ED200B242E3 /* BestProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E16AF2BFC0ED200B242E3 /* BestProductCell.swift */; };
+		483E16B22BFC1EC500B242E3 /* BestItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E16B12BFC1EC500B242E3 /* BestItemCell.swift */; };
 		48502AA92BC799F700F4F1D0 /* KakaoLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48502AA82BC799F700F4F1D0 /* KakaoLoginManager.swift */; };
 		48502AAC2BC79C4800F4F1D0 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 48502AAB2BC79C4800F4F1D0 /* KakaoSDK */; };
 		48502AAE2BC79C4800F4F1D0 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 48502AAD2BC79C4800F4F1D0 /* KakaoSDKAuth */; };
@@ -31,9 +33,14 @@
 		489F365B2BE283B800E0649B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489F365A2BE283B800E0649B /* MainViewController.swift */; };
 		489F365D2BE2A1C300E0649B /* DoughnutTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489F365C2BE2A1C300E0649B /* DoughnutTableCell.swift */; };
 		48B210222BE2C9880030729F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B210212BE2C9880030729F /* Item.swift */; };
+		48D3C43E2BEB73E800CC8664 /* BarItemNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D3C43D2BEB73E800CC8664 /* BarItemNavigationViewController.swift */; };
+		48F2B9EF2BFB633800369CC7 /* AdvertisementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F2B9EE2BFB633800369CC7 /* AdvertisementCell.swift */; };
+		48F2B9F22BFB63D300369CC7 /* CollectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F2B9F12BFB63D300369CC7 /* CollectionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		483E16AF2BFC0ED200B242E3 /* BestProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestProductCell.swift; sourceTree = "<group>"; };
+		483E16B12BFC1EC500B242E3 /* BestItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestItemCell.swift; sourceTree = "<group>"; };
 		48502AA82BC799F700F4F1D0 /* KakaoLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginManager.swift; sourceTree = "<group>"; };
 		486C20CF2BBFD89100CC5DC3 /* Doughnut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doughnut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		486C20D22BBFD89100CC5DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +61,9 @@
 		489F365A2BE283B800E0649B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		489F365C2BE2A1C300E0649B /* DoughnutTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutTableCell.swift; sourceTree = "<group>"; };
 		48B210212BE2C9880030729F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		48D3C43D2BEB73E800CC8664 /* BarItemNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarItemNavigationViewController.swift; sourceTree = "<group>"; };
+		48F2B9EE2BFB633800369CC7 /* AdvertisementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementCell.swift; sourceTree = "<group>"; };
+		48F2B9F12BFB63D300369CC7 /* CollectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		483E16AE2BFC0E9000B242E3 /* CellGroup */ = {
+			isa = PBXGroup;
+			children = (
+				48F2B9EE2BFB633800369CC7 /* AdvertisementCell.swift */,
+				483E16AF2BFC0ED200B242E3 /* BestProductCell.swift */,
+				483E16B12BFC1EC500B242E3 /* BestItemCell.swift */,
+			);
+			path = CellGroup;
+			sourceTree = "<group>";
+		};
 		486C20C62BBFD89100CC5DC3 = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +120,6 @@
 				489F36582BE2833700E0649B /* Environment */,
 				486C20DB2BBFD89200CC5DC3 /* Assets.xcassets */,
 				486C20E02BBFD89200CC5DC3 /* Info.plist */,
-				48713F632BE3113700FA4748 /* DoughnutTabBarController.swift */,
 			);
 			path = Doughnut;
 			sourceTree = "<group>";
@@ -126,7 +145,9 @@
 		48713F662BE3118700FA4748 /* Shopping */ = {
 			isa = PBXGroup;
 			children = (
+				483E16AE2BFC0E9000B242E3 /* CellGroup */,
 				48713F672BE311A600FA4748 /* ShoppingViewController.swift */,
+				48F2B9F12BFB63D300369CC7 /* CollectionData.swift */,
 			);
 			path = Shopping;
 			sourceTree = "<group>";
@@ -149,6 +170,7 @@
 				4871B1B52BC6BCD700DFA64F /* SettingCheck.swift */,
 				486C20D42BBFD89100CC5DC3 /* SceneDelegate.swift */,
 				486C20D22BBFD89100CC5DC3 /* AppDelegate.swift */,
+				48713F632BE3113700FA4748 /* DoughnutTabBarController.swift */,
 			);
 			path = Environment;
 			sourceTree = "<group>";
@@ -159,6 +181,7 @@
 				489F365A2BE283B800E0649B /* MainViewController.swift */,
 				489F365C2BE2A1C300E0649B /* DoughnutTableCell.swift */,
 				48B210212BE2C9880030729F /* Item.swift */,
+				48D3C43D2BEB73E800CC8664 /* BarItemNavigationViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -252,7 +275,10 @@
 				48502AA92BC799F700F4F1D0 /* KakaoLoginManager.swift in Sources */,
 				4871B1B62BC6BCD700DFA64F /* SettingCheck.swift in Sources */,
 				489F365D2BE2A1C300E0649B /* DoughnutTableCell.swift in Sources */,
+				48F2B9EF2BFB633800369CC7 /* AdvertisementCell.swift in Sources */,
+				48F2B9F22BFB63D300369CC7 /* CollectionData.swift in Sources */,
 				48713F642BE3113700FA4748 /* DoughnutTabBarController.swift in Sources */,
+				48D3C43E2BEB73E800CC8664 /* BarItemNavigationViewController.swift in Sources */,
 				4871B1C12BC6C1C500DFA64F /* FontExtend.swift in Sources */,
 				48713F6A2BE311B400FA4748 /* MapViewController.swift in Sources */,
 				48B210222BE2C9880030729F /* Item.swift in Sources */,
@@ -261,6 +287,8 @@
 				486C20D52BBFD89100CC5DC3 /* SceneDelegate.swift in Sources */,
 				48713F682BE311A600FA4748 /* ShoppingViewController.swift in Sources */,
 				489F365B2BE283B800E0649B /* MainViewController.swift in Sources */,
+				483E16B22BFC1EC500B242E3 /* BestItemCell.swift in Sources */,
+				483E16B02BFC0ED200B242E3 /* BestProductCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
