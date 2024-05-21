@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		483968412BFCAC9B002A3035 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483968402BFCAC9B002A3035 /* HeaderCollectionReusableView.swift */; };
 		483E16B02BFC0ED200B242E3 /* BestProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E16AF2BFC0ED200B242E3 /* BestProductCell.swift */; };
 		483E16B22BFC1EC500B242E3 /* BestItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E16B12BFC1EC500B242E3 /* BestItemCell.swift */; };
 		48502AA92BC799F700F4F1D0 /* KakaoLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48502AA82BC799F700F4F1D0 /* KakaoLoginManager.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		483968402BFCAC9B002A3035 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		483E16AF2BFC0ED200B242E3 /* BestProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestProductCell.swift; sourceTree = "<group>"; };
 		483E16B12BFC1EC500B242E3 /* BestItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestItemCell.swift; sourceTree = "<group>"; };
 		48502AA82BC799F700F4F1D0 /* KakaoLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginManager.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			children = (
 				483E16AE2BFC0E9000B242E3 /* CellGroup */,
 				48713F672BE311A600FA4748 /* ShoppingViewController.swift */,
+				483968402BFCAC9B002A3035 /* HeaderCollectionReusableView.swift */,
 				48F2B9F12BFB63D300369CC7 /* CollectionData.swift */,
 			);
 			path = Shopping;
@@ -283,6 +286,7 @@
 				48713F6A2BE311B400FA4748 /* MapViewController.swift in Sources */,
 				48B210222BE2C9880030729F /* Item.swift in Sources */,
 				4885D4272BC6F1F2003868F5 /* MemberData.swift in Sources */,
+				483968412BFCAC9B002A3035 /* HeaderCollectionReusableView.swift in Sources */,
 				486C20D32BBFD89100CC5DC3 /* AppDelegate.swift in Sources */,
 				486C20D52BBFD89100CC5DC3 /* SceneDelegate.swift in Sources */,
 				48713F682BE311A600FA4748 /* ShoppingViewController.swift in Sources */,

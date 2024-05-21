@@ -60,12 +60,14 @@ class ShoppingViewController: UIViewController {
     
     private lazy var supplyCollectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
-        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        layout.sectionInset = UIEdgeInsets(top: 40, left: 0, bottom: 0, right: 0)
+        layout.headerReferenceSize = CGSize(width: 50, height: 5)
         
         let collection = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collection.delegate = self
         collection.dataSource = self
         collection.register(BestProductCell.self, forCellWithReuseIdentifier: BestProductCell.identifier)
+        collection.register(HeaderCollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: HeaderCollectionReusableView.identifier)
         collection.tag = 2
         
         return collection
@@ -73,12 +75,13 @@ class ShoppingViewController: UIViewController {
     
     private lazy var bestItemCollectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
-        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-        
+        layout.headerReferenceSize = CGSize(width: 50, height: 5)
+        layout.sectionInset = UIEdgeInsets(top: 40, left: 0, bottom: 0, right: 0)
         let collection = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collection.delegate = self
         collection.dataSource = self
         collection.register(BestItemCell.self, forCellWithReuseIdentifier: BestItemCell.identifier)
+        collection.register(HeaderCollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: HeaderCollectionReusableView.identifier)
         collection.tag = 3
         
         return collection
@@ -119,7 +122,7 @@ class ShoppingViewController: UIViewController {
         contentsView.snp.makeConstraints { make in
             make.edges.equalTo(mainScrollView)
             make.width.equalTo(mainScrollView)
-            make.height.greaterThanOrEqualToSuperview()
+            make.height.greaterThanOrEqualToSuperview().offset(200)
         }
     }
     
@@ -141,14 +144,14 @@ class ShoppingViewController: UIViewController {
         }
         
         supplyCollectionView.snp.makeConstraints{ make in
-            make.top.equalTo(advertisementCollectionView.snp.bottom).offset(15)
+            make.top.equalTo(advertisementCollectionView.snp.bottom).offset(35)
             make.left.equalToSuperview().offset(10)
             make.right.equalToSuperview().offset(-10)
-            make.height.lessThanOrEqualTo(280)
+            make.height.lessThanOrEqualTo(300)
         }
         
         bestItemCollectionView.snp.makeConstraints{ make in
-            make.top.equalTo(supplyCollectionView.snp.bottom).offset(5)
+            make.top.equalTo(supplyCollectionView.snp.bottom).offset(25)
             make.left.equalToSuperview().offset(10)
             make.right.equalToSuperview().offset(-10)
             make.height.greaterThanOrEqualTo(1000)
@@ -232,6 +235,22 @@ extension ShoppingViewController: UICollectionViewDelegate, UICollectionViewData
         default:
             return CGSize(width: 0, height: 0)
         }
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        guard let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: HeaderCollectionReusableView.identifier, for: indexPath) as? HeaderCollectionReusableView else { return HeaderCollectionReusableView() }
+        
+        print(header)
+        switch collectionView.tag {
+        case 2:
+            header.configure(text: "All Products")
+        case 3:
+            header.configure(text: "Best Items:")
+        default:
+            break
+        }
+        
+        return header
     }
     
     func imageCGSize(_ collectionView: UICollectionView, row: CGFloat, spacing: CGFloat, height: CGFloat) -> CGSize {
