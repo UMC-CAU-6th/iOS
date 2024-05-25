@@ -1,0 +1,1051 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		72E614C823EA09AB1AAE80D5CD8A4C58 /* NMapsGeometry */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EB98AD101AB530610FAEE48FABDF7F57 /* Build configuration list for PBXAggregateTarget "NMapsGeometry" */;
+			buildPhases = (
+				06DEA16D4139F67FC0E17642FDBEECD0 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = NMapsGeometry;
+		};
+		8E049F5F4E3BDC647F924FEF22D49D90 /* NMapsMap */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 73E737D5F21341C24A13EBC70CD8D471 /* Build configuration list for PBXAggregateTarget "NMapsMap" */;
+			buildPhases = (
+				B521269790554904B95202DE2D5AC59C /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				258F097AFE79EE06421A954BF7063DC2 /* PBXTargetDependency */,
+			);
+			name = NMapsMap;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1900EA3B167DB8DDAACE41E3D52F31D8 /* Pods-DonutApp-DonutAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CA4750DC9273E2F8F6D08D2D096109 /* Pods-DonutApp-DonutAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EDDDD9DCE7DC26254D5638F367A9A6F /* Pods-DonutAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81781B309B43AC702B3D1FE0428770B7 /* Pods-DonutAppTests-dummy.m */; };
+		2FDB45EF9AC4D5B005B4AC17231B4378 /* Pods-DonutApp-DonutAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ED01546518DF0D18A296735E526025 /* Pods-DonutApp-DonutAppUITests-dummy.m */; };
+		6F354ADCEE2EED625FBCBEEB3D4599CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		837DE4409B9186F2D5F063B01E8FABC7 /* Pods-DonutApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55387D28C741BE9172151C1A520917D5 /* Pods-DonutApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE30EFED2F512F820BC81D87CC781D6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CD2040845B3695F73363D60DE2450491 /* Pods-DonutAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56DE3DC4EEDECD049AF8E2FD842CB82C /* Pods-DonutAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE54081B9468D59851B13A6F2F3BE438 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FE49412665503CD65DD22B3A827D50F9 /* Pods-DonutApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E82DFD8E4EEE8983E075E08FADF1A5BD /* Pods-DonutApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		016937323B2EEFED2619E8399F3E72C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E049F5F4E3BDC647F924FEF22D49D90;
+			remoteInfo = NMapsMap;
+		};
+		2C58AEC4B347520F364F499B6F49DE98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E049F5F4E3BDC647F924FEF22D49D90;
+			remoteInfo = NMapsMap;
+		};
+		61C60618A493F3A7D361405DFF7E233E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D53D6B044CF7FE8261C5DF5CC992AF;
+			remoteInfo = "Pods-DonutApp";
+		};
+		7F00C360A1E47BCFA7970B4BBEC51126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72E614C823EA09AB1AAE80D5CD8A4C58;
+			remoteInfo = NMapsGeometry;
+		};
+		80592818EE76A7CC4EEA73E30652174F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72E614C823EA09AB1AAE80D5CD8A4C58;
+			remoteInfo = NMapsGeometry;
+		};
+		DD0A57B6D4AEFC2D3065E98EF6DD5AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72E614C823EA09AB1AAE80D5CD8A4C58;
+			remoteInfo = NMapsGeometry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D574EEFCE1AFD58990187DE4495431 /* Pods-DonutApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonutApp-Info.plist"; sourceTree = "<group>"; };
+		0970046F7060534BA9B286629593DA0C /* NMapsMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMapsMap.debug.xcconfig; sourceTree = "<group>"; };
+		15CA4750DC9273E2F8F6D08D2D096109 /* Pods-DonutApp-DonutAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DonutApp-DonutAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		1A326C79B1B897CBCFDC36BFF5174A43 /* NMapsGeometry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMapsGeometry.debug.xcconfig; sourceTree = "<group>"; };
+		29A7AF9CBC57BEFD51FDABDF4FF5CB8B /* Pods-DonutAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonutAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D968134E7E94D3316C068CEC661347A /* Pods-DonutApp-DonutAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DonutApp-DonutAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		349645EBDFC2580EAC535CF795808CD2 /* Pods-DonutApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DonutApp"; path = Pods_DonutApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35ED01546518DF0D18A296735E526025 /* Pods-DonutApp-DonutAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DonutApp-DonutAppUITests-dummy.m"; sourceTree = "<group>"; };
+		405BA9B218C0E172B4078858767584DB /* Pods-DonutApp-DonutAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DonutApp-DonutAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		455F09AB3BEDF813BA052B7FF4459D23 /* Pods-DonutAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonutAppTests-Info.plist"; sourceTree = "<group>"; };
+		485FAE6318CCD7779377C7AA4A7B3528 /* NMapsGeometry.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = NMapsGeometry.xcframework; path = framework/NMapsGeometry.xcframework; sourceTree = "<group>"; };
+		4F0C55D25B9900DE7936740E68EFDFCF /* NMapsMap.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = NMapsMap.xcframework; path = framework/NMapsMap.xcframework; sourceTree = "<group>"; };
+		52CA8D3401BCA31686C45B6469B2E97E /* Pods-DonutApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DonutApp-frameworks.sh"; sourceTree = "<group>"; };
+		53BB18D8DE6118DEC0AAC01027DBECA8 /* NMapsMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMapsMap.release.xcconfig; sourceTree = "<group>"; };
+		55387D28C741BE9172151C1A520917D5 /* Pods-DonutApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DonutApp-umbrella.h"; sourceTree = "<group>"; };
+		56DE3DC4EEDECD049AF8E2FD842CB82C /* Pods-DonutAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DonutAppTests-umbrella.h"; sourceTree = "<group>"; };
+		5EADCD65483B6EC76BC56662E2038A21 /* Pods-DonutApp-DonutAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DonutApp-DonutAppUITests.modulemap"; sourceTree = "<group>"; };
+		5F678FA43FC66A6BC235EDD414A4ADC4 /* Pods-DonutApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonutApp.release.xcconfig"; sourceTree = "<group>"; };
+		66275A40CCBD91F3FFFE9A4A082FA5BF /* Pods-DonutApp-DonutAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonutApp-DonutAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F89040B8DC7FC773592AA5FE110E9DF /* NMapsGeometry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMapsGeometry.release.xcconfig; sourceTree = "<group>"; };
+		80B5644AEC66DBE0E16FA10A2BE58A0D /* Pods-DonutApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonutApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		81781B309B43AC702B3D1FE0428770B7 /* Pods-DonutAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DonutAppTests-dummy.m"; sourceTree = "<group>"; };
+		87A17B1F68335432D1F0931856B1244B /* Pods-DonutAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DonutAppTests"; path = Pods_DonutAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		983FCEF2808419DF12F69DFEBD7685D4 /* NMapsMap-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "NMapsMap-xcframeworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2FC83279C5FF19A228A02BF227C8F72 /* Pods-DonutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonutApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B014C6E16ED2A182BEA88D730F76C622 /* Pods-DonutAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonutAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B639A40F36C6E5A9FAB8CFE224EE5380 /* Pods-DonutApp-DonutAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DonutApp-DonutAppUITests"; path = Pods_DonutApp_DonutAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A2FFC438F76C8F6B8096BABF7CDD7D /* Pods-DonutApp-DonutAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonutApp-DonutAppUITests-Info.plist"; sourceTree = "<group>"; };
+		C08C3B65BEC681EDCA3F78327D9AA768 /* Pods-DonutAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonutAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C107AFF209EEB7151D4A2861B7C6923A /* Pods-DonutApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DonutApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C160AD3910FDA262E334B8A3F39F4CE8 /* Pods-DonutAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DonutAppTests.modulemap"; sourceTree = "<group>"; };
+		C53C65B2AAF869C78FF7A9BEA64381E1 /* Pods-DonutAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DonutAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7DBBC4E3A134383AEF35B9A40E5CB13 /* Pods-DonutApp-DonutAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonutApp-DonutAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9E1AC6A610CD357DBA0C7C2966A0E8E /* Pods-DonutApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DonutApp.modulemap"; sourceTree = "<group>"; };
+		E101130795B024FC83E4F774AA209B18 /* NMapsGeometry-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "NMapsGeometry-xcframeworks.sh"; sourceTree = "<group>"; };
+		E82DFD8E4EEE8983E075E08FADF1A5BD /* Pods-DonutApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DonutApp-dummy.m"; sourceTree = "<group>"; };
+		FEBF80EB7A07B41C3B32D854653293B8 /* Pods-DonutApp-DonutAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonutApp-DonutAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EC7FB314089982F1E2600C38A2AEE72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F354ADCEE2EED625FBCBEEB3D4599CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E20CC2DD18388693F396B19001CCBB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE54081B9468D59851B13A6F2F3BE438 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D68EE1C65603037906F1F3CEFA3BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE30EFED2F512F820BC81D87CC781D6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1317B1B48EEFE3B321BDD41A7A222AC2 /* Pods-DonutAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C160AD3910FDA262E334B8A3F39F4CE8 /* Pods-DonutAppTests.modulemap */,
+				C53C65B2AAF869C78FF7A9BEA64381E1 /* Pods-DonutAppTests-acknowledgements.markdown */,
+				C08C3B65BEC681EDCA3F78327D9AA768 /* Pods-DonutAppTests-acknowledgements.plist */,
+				81781B309B43AC702B3D1FE0428770B7 /* Pods-DonutAppTests-dummy.m */,
+				455F09AB3BEDF813BA052B7FF4459D23 /* Pods-DonutAppTests-Info.plist */,
+				56DE3DC4EEDECD049AF8E2FD842CB82C /* Pods-DonutAppTests-umbrella.h */,
+				29A7AF9CBC57BEFD51FDABDF4FF5CB8B /* Pods-DonutAppTests.debug.xcconfig */,
+				B014C6E16ED2A182BEA88D730F76C622 /* Pods-DonutAppTests.release.xcconfig */,
+			);
+			name = "Pods-DonutAppTests";
+			path = "Target Support Files/Pods-DonutAppTests";
+			sourceTree = "<group>";
+		};
+		169A894F474781F666BE8D90408D3828 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E101130795B024FC83E4F774AA209B18 /* NMapsGeometry-xcframeworks.sh */,
+				1A326C79B1B897CBCFDC36BFF5174A43 /* NMapsGeometry.debug.xcconfig */,
+				7F89040B8DC7FC773592AA5FE110E9DF /* NMapsGeometry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NMapsGeometry";
+			sourceTree = "<group>";
+		};
+		25B56312D79088C322C5B52238334BCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FE65985C01476131D3AC219F92CC3CF /* NMapsGeometry */,
+				487B37947971C0C75B135158191A5547 /* NMapsMap */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2ED541A35C7BD1778556550CF4846D2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C55D25B9900DE7936740E68EFDFCF /* NMapsMap.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FE65985C01476131D3AC219F92CC3CF /* NMapsGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				DC955F600E602E5041F1000DC79753BB /* Frameworks */,
+				169A894F474781F666BE8D90408D3828 /* Support Files */,
+			);
+			name = NMapsGeometry;
+			path = NMapsGeometry;
+			sourceTree = "<group>";
+		};
+		487B37947971C0C75B135158191A5547 /* NMapsMap */ = {
+			isa = PBXGroup;
+			children = (
+				2ED541A35C7BD1778556550CF4846D2F /* Frameworks */,
+				A3E28C362EAC5C5A2CCC22EE5E2FDA30 /* Support Files */,
+			);
+			name = NMapsMap;
+			path = NMapsMap;
+			sourceTree = "<group>";
+		};
+		56A4EED5B1DDDE956471B91B6368A430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349645EBDFC2580EAC535CF795808CD2 /* Pods-DonutApp */,
+				B639A40F36C6E5A9FAB8CFE224EE5380 /* Pods-DonutApp-DonutAppUITests */,
+				87A17B1F68335432D1F0931856B1244B /* Pods-DonutAppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6E29A00B7A6BCF67E1B2186CE32F10A0 /* Pods-DonutApp-DonutAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EADCD65483B6EC76BC56662E2038A21 /* Pods-DonutApp-DonutAppUITests.modulemap */,
+				2D968134E7E94D3316C068CEC661347A /* Pods-DonutApp-DonutAppUITests-acknowledgements.markdown */,
+				66275A40CCBD91F3FFFE9A4A082FA5BF /* Pods-DonutApp-DonutAppUITests-acknowledgements.plist */,
+				35ED01546518DF0D18A296735E526025 /* Pods-DonutApp-DonutAppUITests-dummy.m */,
+				405BA9B218C0E172B4078858767584DB /* Pods-DonutApp-DonutAppUITests-frameworks.sh */,
+				B9A2FFC438F76C8F6B8096BABF7CDD7D /* Pods-DonutApp-DonutAppUITests-Info.plist */,
+				15CA4750DC9273E2F8F6D08D2D096109 /* Pods-DonutApp-DonutAppUITests-umbrella.h */,
+				D7DBBC4E3A134383AEF35B9A40E5CB13 /* Pods-DonutApp-DonutAppUITests.debug.xcconfig */,
+				FEBF80EB7A07B41C3B32D854653293B8 /* Pods-DonutApp-DonutAppUITests.release.xcconfig */,
+			);
+			name = "Pods-DonutApp-DonutAppUITests";
+			path = "Target Support Files/Pods-DonutApp-DonutAppUITests";
+			sourceTree = "<group>";
+		};
+		A011ED2A11482B092298C27CDB65B740 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCCABD62E46B59FB8C0A07B98BB8D6C8 /* Pods-DonutApp */,
+				6E29A00B7A6BCF67E1B2186CE32F10A0 /* Pods-DonutApp-DonutAppUITests */,
+				1317B1B48EEFE3B321BDD41A7A222AC2 /* Pods-DonutAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A3E28C362EAC5C5A2CCC22EE5E2FDA30 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				983FCEF2808419DF12F69DFEBD7685D4 /* NMapsMap-xcframeworks.sh */,
+				0970046F7060534BA9B286629593DA0C /* NMapsMap.debug.xcconfig */,
+				53BB18D8DE6118DEC0AAC01027DBECA8 /* NMapsMap.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NMapsMap";
+			sourceTree = "<group>";
+		};
+		CCCABD62E46B59FB8C0A07B98BB8D6C8 /* Pods-DonutApp */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1AC6A610CD357DBA0C7C2966A0E8E /* Pods-DonutApp.modulemap */,
+				C107AFF209EEB7151D4A2861B7C6923A /* Pods-DonutApp-acknowledgements.markdown */,
+				80B5644AEC66DBE0E16FA10A2BE58A0D /* Pods-DonutApp-acknowledgements.plist */,
+				E82DFD8E4EEE8983E075E08FADF1A5BD /* Pods-DonutApp-dummy.m */,
+				52CA8D3401BCA31686C45B6469B2E97E /* Pods-DonutApp-frameworks.sh */,
+				03D574EEFCE1AFD58990187DE4495431 /* Pods-DonutApp-Info.plist */,
+				55387D28C741BE9172151C1A520917D5 /* Pods-DonutApp-umbrella.h */,
+				A2FC83279C5FF19A228A02BF227C8F72 /* Pods-DonutApp.debug.xcconfig */,
+				5F678FA43FC66A6BC235EDD414A4ADC4 /* Pods-DonutApp.release.xcconfig */,
+			);
+			name = "Pods-DonutApp";
+			path = "Target Support Files/Pods-DonutApp";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				25B56312D79088C322C5B52238334BCC /* Pods */,
+				56A4EED5B1DDDE956471B91B6368A430 /* Products */,
+				A011ED2A11482B092298C27CDB65B740 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC955F600E602E5041F1000DC79753BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				485FAE6318CCD7779377C7AA4A7B3528 /* NMapsGeometry.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23A9FA9938EEDBB08498E7190A45D58B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837DE4409B9186F2D5F063B01E8FABC7 /* Pods-DonutApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D925A6FB8CE72A21E7EA2F91238137 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2040845B3695F73363D60DE2450491 /* Pods-DonutAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A08059E3B6A9514FD845A4261E1677 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1900EA3B167DB8DDAACE41E3D52F31D8 /* Pods-DonutApp-DonutAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AF0661C6A535D8EAF54171C0B251FBE /* Pods-DonutAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35939C1CDB9BA30F445DD1102F77DC69 /* Build configuration list for PBXNativeTarget "Pods-DonutAppTests" */;
+			buildPhases = (
+				77D925A6FB8CE72A21E7EA2F91238137 /* Headers */,
+				69DC4C54121AEA69F5507D3447E6D4FA /* Sources */,
+				9E20CC2DD18388693F396B19001CCBB4 /* Frameworks */,
+				13B7745122F1163D759A52EFDA46374B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EE0B3CDAEC0398738F8B2FC936F2E30 /* PBXTargetDependency */,
+			);
+			name = "Pods-DonutAppTests";
+			productName = Pods_DonutAppTests;
+			productReference = 87A17B1F68335432D1F0931856B1244B /* Pods-DonutAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B12E24A1309E392CBDBF5ABC5A6DCFD /* Pods-DonutApp-DonutAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40655523FB8FBF631E3D5F78CE39CB2 /* Build configuration list for PBXNativeTarget "Pods-DonutApp-DonutAppUITests" */;
+			buildPhases = (
+				83A08059E3B6A9514FD845A4261E1677 /* Headers */,
+				0D7C318FE54FEE895CB3F06DB51B1CE8 /* Sources */,
+				3EC7FB314089982F1E2600C38A2AEE72 /* Frameworks */,
+				8B6D469D94D477A1BB846F88302680AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BAEC69B039FE6C4025A406C19488A80 /* PBXTargetDependency */,
+				9E349F2183486E08E3A5D57BB0E0743D /* PBXTargetDependency */,
+			);
+			name = "Pods-DonutApp-DonutAppUITests";
+			productName = Pods_DonutApp_DonutAppUITests;
+			productReference = B639A40F36C6E5A9FAB8CFE224EE5380 /* Pods-DonutApp-DonutAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1D53D6B044CF7FE8261C5DF5CC992AF /* Pods-DonutApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E621E47DBA526D7E1B88EA36440EEBA4 /* Build configuration list for PBXNativeTarget "Pods-DonutApp" */;
+			buildPhases = (
+				23A9FA9938EEDBB08498E7190A45D58B /* Headers */,
+				7FC1B68E7103DB563E15C21F5A0D48F4 /* Sources */,
+				B2D68EE1C65603037906F1F3CEFA3BD8 /* Frameworks */,
+				04EF315AA6A69A50C8E2B778B7C9211D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2965F944AEB41853BA71DAB48778F1DB /* PBXTargetDependency */,
+				4F19C3800EF294C42055C07AF9CB319C /* PBXTargetDependency */,
+			);
+			name = "Pods-DonutApp";
+			productName = Pods_DonutApp;
+			productReference = 349645EBDFC2580EAC535CF795808CD2 /* Pods-DonutApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 56A4EED5B1DDDE956471B91B6368A430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72E614C823EA09AB1AAE80D5CD8A4C58 /* NMapsGeometry */,
+				8E049F5F4E3BDC647F924FEF22D49D90 /* NMapsMap */,
+				A1D53D6B044CF7FE8261C5DF5CC992AF /* Pods-DonutApp */,
+				7B12E24A1309E392CBDBF5ABC5A6DCFD /* Pods-DonutApp-DonutAppUITests */,
+				1AF0661C6A535D8EAF54171C0B251FBE /* Pods-DonutAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EF315AA6A69A50C8E2B778B7C9211D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B7745122F1163D759A52EFDA46374B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B6D469D94D477A1BB846F88302680AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06DEA16D4139F67FC0E17642FDBEECD0 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/NMapsGeometry/NMapsGeometry-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/NMapsGeometry/NMapsGeometry-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/NMapsGeometry/NMapsGeometry-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B521269790554904B95202DE2D5AC59C /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/NMapsMap/NMapsMap-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/NMapsMap/NMapsMap-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/NMapsMap/NMapsMap-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D7C318FE54FEE895CB3F06DB51B1CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FDB45EF9AC4D5B005B4AC17231B4378 /* Pods-DonutApp-DonutAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DC4C54121AEA69F5507D3447E6D4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDDDD9DCE7DC26254D5638F367A9A6F /* Pods-DonutAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC1B68E7103DB563E15C21F5A0D48F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE49412665503CD65DD22B3A827D50F9 /* Pods-DonutApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EE0B3CDAEC0398738F8B2FC936F2E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DonutApp";
+			target = A1D53D6B044CF7FE8261C5DF5CC992AF /* Pods-DonutApp */;
+			targetProxy = 61C60618A493F3A7D361405DFF7E233E /* PBXContainerItemProxy */;
+		};
+		258F097AFE79EE06421A954BF7063DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMapsGeometry;
+			target = 72E614C823EA09AB1AAE80D5CD8A4C58 /* NMapsGeometry */;
+			targetProxy = 7F00C360A1E47BCFA7970B4BBEC51126 /* PBXContainerItemProxy */;
+		};
+		2965F944AEB41853BA71DAB48778F1DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMapsGeometry;
+			target = 72E614C823EA09AB1AAE80D5CD8A4C58 /* NMapsGeometry */;
+			targetProxy = 80592818EE76A7CC4EEA73E30652174F /* PBXContainerItemProxy */;
+		};
+		4F19C3800EF294C42055C07AF9CB319C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMapsMap;
+			target = 8E049F5F4E3BDC647F924FEF22D49D90 /* NMapsMap */;
+			targetProxy = 016937323B2EEFED2619E8399F3E72C3 /* PBXContainerItemProxy */;
+		};
+		8BAEC69B039FE6C4025A406C19488A80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMapsGeometry;
+			target = 72E614C823EA09AB1AAE80D5CD8A4C58 /* NMapsGeometry */;
+			targetProxy = DD0A57B6D4AEFC2D3065E98EF6DD5AE8 /* PBXContainerItemProxy */;
+		};
+		9E349F2183486E08E3A5D57BB0E0743D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMapsMap;
+			target = 8E049F5F4E3BDC647F924FEF22D49D90 /* NMapsMap */;
+			targetProxy = 2C58AEC4B347520F364F499B6F49DE98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032504F201C69275441D32C68CCD1F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		138EE7F5840AEF4E4028CA5FAAE9EE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F89040B8DC7FC773592AA5FE110E9DF /* NMapsGeometry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E75B61D5C253E490FBA2A4847A3F86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B014C6E16ED2A182BEA88D730F76C622 /* Pods-DonutAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DonutAppTests/Pods-DonutAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonutAppTests/Pods-DonutAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3938DD691ABAA86D45D6AB41CC573E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F678FA43FC66A6BC235EDD414A4ADC4 /* Pods-DonutApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DonutApp/Pods-DonutApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonutApp/Pods-DonutApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4122D12474652D4B94029A59C0DC6010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A326C79B1B897CBCFDC36BFF5174A43 /* NMapsGeometry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7B49A4EC53E436888AF70C6C82CB9329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DBBC4E3A134383AEF35B9A40E5CB13 /* Pods-DonutApp-DonutAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DonutApp-DonutAppUITests/Pods-DonutApp-DonutAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonutApp-DonutAppUITests/Pods-DonutApp-DonutAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		971797E7CFD33EEBA9934F8B22737D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2FC83279C5FF19A228A02BF227C8F72 /* Pods-DonutApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DonutApp/Pods-DonutApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonutApp/Pods-DonutApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A329EE28D09ABA75786301B0910F608B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A7AF9CBC57BEFD51FDABDF4FF5CB8B /* Pods-DonutAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DonutAppTests/Pods-DonutAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonutAppTests/Pods-DonutAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE68C91C3ECD9F935333A7DDCB6B49F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEBF80EB7A07B41C3B32D854653293B8 /* Pods-DonutApp-DonutAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DonutApp-DonutAppUITests/Pods-DonutApp-DonutAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonutApp-DonutAppUITests/Pods-DonutApp-DonutAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E683018BA3CA2E27A39E5DF5619B90F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0970046F7060534BA9B286629593DA0C /* NMapsMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE5D137BA104CCBECE001BF38C0AEB3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BB18D8DE6118DEC0AAC01027DBECA8 /* NMapsMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35939C1CDB9BA30F445DD1102F77DC69 /* Build configuration list for PBXNativeTarget "Pods-DonutAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A329EE28D09ABA75786301B0910F608B /* Debug */,
+				1E75B61D5C253E490FBA2A4847A3F86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */,
+				032504F201C69275441D32C68CCD1F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E737D5F21341C24A13EBC70CD8D471 /* Build configuration list for PBXAggregateTarget "NMapsMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E683018BA3CA2E27A39E5DF5619B90F6 /* Debug */,
+				FE5D137BA104CCBECE001BF38C0AEB3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40655523FB8FBF631E3D5F78CE39CB2 /* Build configuration list for PBXNativeTarget "Pods-DonutApp-DonutAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B49A4EC53E436888AF70C6C82CB9329 /* Debug */,
+				BE68C91C3ECD9F935333A7DDCB6B49F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E621E47DBA526D7E1B88EA36440EEBA4 /* Build configuration list for PBXNativeTarget "Pods-DonutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971797E7CFD33EEBA9934F8B22737D6B /* Debug */,
+				3938DD691ABAA86D45D6AB41CC573E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB98AD101AB530610FAEE48FABDF7F57 /* Build configuration list for PBXAggregateTarget "NMapsGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4122D12474652D4B94029A59C0DC6010 /* Debug */,
+				138EE7F5840AEF4E4028CA5FAAE9EE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_DonutApp_DonutAppUITests {
+  umbrella header "Pods-DonutApp-DonutAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
