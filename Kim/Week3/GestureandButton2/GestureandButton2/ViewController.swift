@@ -43,6 +43,32 @@ class ViewController: UIViewController {
         page.addTarget(self, action: #selector(changepg(_:)), for: .valueChanged)
         return page
     }()
+    
+    //MARK: -UI Button
+    private lazy var btn1: UIButton = {
+        let b = UIButton()
+        var bcon = UIButton.Configuration.filled()
+        var title = AttributeContainer()
+        var img = UIImage(named: "btn")
+        bcon.image = img
+        bcon.contentInsets = .zero
+        b.translatesAutoresizingMaskIntoConstraints = false
+        bcon.imagePadding = 5
+        bcon.attributedTitle = AttributedString("Button1",attributes: title)
+        b.configuration=bcon
+        b.addTarget(self, action: #selector(clicked), for: .touchUpInside)
+        return b
+    }()
+    private lazy var btn2: UIButton = {
+        let b = UIButton()
+        /*Button Configuration*/
+        var bcon = UIButton.Configuration.filled()
+        var title = AttributeContainer()
+        bcon.attributedTitle = AttributedString("Button2",attributes: title)
+        b.configuration=bcon
+        b.addTarget(self, action: #selector(clicked), for: .touchUpInside)
+        return b
+    }()
 
     //MARK: - Init
     override func viewDidLoad() {
@@ -65,10 +91,25 @@ class ViewController: UIViewController {
         }
         view.addSubview(pageControl)
         pageControl.snp.makeConstraints { make in
-            make.top.equalTo(titleL.snp.bottom).offset(20)
+            make.top.equalTo(titleL.snp.bottom).offset(200)
             make.centerX.equalToSuperview()
             make.height.equalTo(210)
             make.width.equalTo(310)
+        }
+        
+        ///button 1, 2 init
+        view.addSubview(btn1)
+        btn1.snp.makeConstraints { make in
+            make.top.equalTo(pageControl.snp.bottom).offset(10)
+            make.width.equalTo(150)
+            make.height.equalTo(150)
+        }
+        view.addSubview(btn2)
+        btn2.snp.makeConstraints { make in
+            make.top.equalTo(pageControl.snp.bottom).offset(10)
+            make.left.equalTo(btn1.snp.right).offset(5)
+            make.width.equalTo(200)
+            make.height.equalTo(100)
         }
     }
 
@@ -93,6 +134,12 @@ class ViewController: UIViewController {
     }
     @objc func changepg(_ sender: UIPageControl){
         flower.image = UIImage(named: imageNames[pageControl.currentPage])
+    }
+    /*클릭할 때 작동*/
+    @objc private func clicked() {
+        let alert = UIAlertController(title: "Button Clicked", message: "You clicked the button!", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
     }
 }
 
