@@ -7,16 +7,15 @@
 
 import UIKit
 import KakaoSDKCommon
+import NMapsMap
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         KakaoSDK.initSDK(appKey: "0d5d606955b098983dd43c182d0c5b43")
-        
+        NMFAuthManager.shared().clientId = "5uwify70kz"
         return true
     }
 

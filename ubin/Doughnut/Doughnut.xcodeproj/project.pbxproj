@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46AA44880762C371A7DB2FE0 /* Pods_DoughnutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6A27295890B0167866D47C /* Pods_DoughnutTests.framework */; };
+		48016AB98725FAAC35C773D3 /* Pods_Doughnut_DoughnutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D3DAED3FC32AE75856F87B /* Pods_Doughnut_DoughnutUITests.framework */; };
+		51F63D9A64374BDB9D5D47DE /* Pods_Doughnut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFF6D1ABD583469007865BA /* Pods_Doughnut.framework */; };
+		F90141BA2BF61ACC00F64CDA /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90141B92BF61ACC00F64CDA /* ShopItem.swift */; };
+		F90141BC2BF62D2F00F64CDA /* ShopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90141BB2BF62D2F00F64CDA /* ShopCollectionViewCell.swift */; };
+		F90141BE2BF77FCF00F64CDA /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90141BD2BF77FCF00F64CDA /* ItemCollectionViewCell.swift */; };
 		F9043BDF2BDFCA8600A16FF3 /* SettingCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9043BDE2BDFCA8600A16FF3 /* SettingCheck.swift */; };
 		F9043BE02BDFFF2800A16FF3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9043BDC2BDFCA6400A16FF3 /* LoginViewController.swift */; };
-		F91C527B2BF23A2800340B62 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F91C527A2BF23A2800340B62 /* SnapKit */; };
-		F91C527D2BF23A2800340B62 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F91C527C2BF23A2800340B62 /* SnapKit-Dynamic */; };
-		F91C52812BF23A3C00340B62 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F91C52802BF23A3C00340B62 /* KakaoSDK */; };
-		F91C52832BF23A3C00340B62 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F91C52822BF23A3C00340B62 /* KakaoSDKAuth */; };
-		F91C52852BF23A3C00340B62 /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = F91C52842BF23A3C00340B62 /* KakaoSDKCert */; };
-		F91C52872BF23A3C00340B62 /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = F91C52862BF23A3C00340B62 /* KakaoSDKCertCore */; };
-		F91C52892BF23A3C00340B62 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = F91C52882BF23A3C00340B62 /* KakaoSDKCommon */; };
+		F90D53962BFF31C2003C3A18 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F90D53952BFF31C2003C3A18 /* KakaoSDK */; };
+		F90D53982BFF31C2003C3A18 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F90D53972BFF31C2003C3A18 /* KakaoSDKAuth */; };
+		F90D539A2BFF31C2003C3A18 /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = F90D53992BFF31C2003C3A18 /* KakaoSDKCert */; };
+		F90D539C2BFF31C2003C3A18 /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = F90D539B2BFF31C2003C3A18 /* KakaoSDKCertCore */; };
+		F90D539E2BFF31C2003C3A18 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = F90D539D2BFF31C2003C3A18 /* KakaoSDKCommon */; };
+		F92BC4C32BFF569F0043ACA7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F92BC4C22BFF569F0043ACA7 /* SnapKit */; };
 		F93C32AF2BEC0932005EF43B /* SheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C32AE2BEC0932005EF43B /* SheetViewController.swift */; };
 		F94F3EAA2BE00BF100BA95C1 /* MemberData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F3EA92BE00BF100BA95C1 /* MemberData.swift */; };
 		F94F3EB52BE0C8F000BA95C1 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94F3EAB2BE0C8F000BA95C1 /* Pretendard-Black.otf */; };
@@ -33,8 +38,8 @@
 		F96D48312BE2D71E002370D0 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D48302BE2D71E002370D0 /* MainTableViewCell.swift */; };
 		F96D48332BE2E930002370D0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D48322BE2E930002370D0 /* Item.swift */; };
 		F96D48352BE3075C002370D0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D48342BE3075C002370D0 /* TabBarController.swift */; };
-		F96D48392BE309C7002370D0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D48382BE309C7002370D0 /* MapViewController.swift */; };
-		F96D483B2BE309EF002370D0 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D483A2BE309EF002370D0 /* BuyViewController.swift */; };
+		F96D48392BE309C7002370D0 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D48382BE309C7002370D0 /* ShopViewController.swift */; };
+		F96D483B2BE309EF002370D0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D483A2BE309EF002370D0 /* MapViewController.swift */; };
 		F98E65232BC926F0006C8380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98E65222BC926F0006C8380 /* AppDelegate.swift */; };
 		F98E65252BC926F0006C8380 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98E65242BC926F0006C8380 /* SceneDelegate.swift */; };
 		F98E652C2BC926F2006C8380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98E652B2BC926F2006C8380 /* Assets.xcassets */; };
@@ -62,8 +67,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B878831C190AA29983993F /* Pods-Doughnut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doughnut.release.xcconfig"; path = "Target Support Files/Pods-Doughnut/Pods-Doughnut.release.xcconfig"; sourceTree = "<group>"; };
+		10D3DAED3FC32AE75856F87B /* Pods_Doughnut_DoughnutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doughnut_DoughnutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE646C14A233922B484EF87 /* Pods-Doughnut-DoughnutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doughnut-DoughnutUITests.release.xcconfig"; path = "Target Support Files/Pods-Doughnut-DoughnutUITests/Pods-Doughnut-DoughnutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B8832BA3A1335A056641DD3 /* Pods-DoughnutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoughnutTests.release.xcconfig"; path = "Target Support Files/Pods-DoughnutTests/Pods-DoughnutTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BFF6D1ABD583469007865BA /* Pods_Doughnut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doughnut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A74051BDE1A4B84724C1CB /* Pods-DoughnutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoughnutTests.debug.xcconfig"; path = "Target Support Files/Pods-DoughnutTests/Pods-DoughnutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA6A27295890B0167866D47C /* Pods_DoughnutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoughnutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90141B92BF61ACC00F64CDA /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		F90141BB2BF62D2F00F64CDA /* ShopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCollectionViewCell.swift; sourceTree = "<group>"; };
+		F90141BD2BF77FCF00F64CDA /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		F9043BDC2BDFCA6400A16FF3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F9043BDE2BDFCA8600A16FF3 /* SettingCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCheck.swift; sourceTree = "<group>"; };
+		F90D53932BFF21A3003C3A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F93C32AE2BEC0932005EF43B /* SheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewController.swift; sourceTree = "<group>"; };
 		F94F3EA92BE00BF100BA95C1 /* MemberData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberData.swift; sourceTree = "<group>"; };
 		F94F3EAB2BE0C8F000BA95C1 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
@@ -81,8 +97,8 @@
 		F96D48302BE2D71E002370D0 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		F96D48322BE2E930002370D0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F96D48342BE3075C002370D0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		F96D48382BE309C7002370D0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		F96D483A2BE309EF002370D0 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		F96D48382BE309C7002370D0 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		F96D483A2BE309EF002370D0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F98E651F2BC926F0006C8380 /* Doughnut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doughnut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98E65222BC926F0006C8380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F98E65242BC926F0006C8380 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +110,8 @@
 		F98E653F2BC926F2006C8380 /* DoughnutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoughnutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98E65432BC926F2006C8380 /* DoughnutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutUITests.swift; sourceTree = "<group>"; };
 		F98E65452BC926F2006C8380 /* DoughnutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB177835C876BAF93220BA42 /* Pods-Doughnut-DoughnutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doughnut-DoughnutUITests.debug.xcconfig"; path = "Target Support Files/Pods-Doughnut-DoughnutUITests/Pods-Doughnut-DoughnutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC632485A14B63BD31826E33 /* Pods-Doughnut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doughnut.debug.xcconfig"; path = "Target Support Files/Pods-Doughnut/Pods-Doughnut.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +119,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F91C527B2BF23A2800340B62 /* SnapKit in Frameworks */,
-				F91C52892BF23A3C00340B62 /* KakaoSDKCommon in Frameworks */,
-				F91C527D2BF23A2800340B62 /* SnapKit-Dynamic in Frameworks */,
-				F91C52872BF23A3C00340B62 /* KakaoSDKCertCore in Frameworks */,
-				F91C52812BF23A3C00340B62 /* KakaoSDK in Frameworks */,
-				F91C52832BF23A3C00340B62 /* KakaoSDKAuth in Frameworks */,
-				F91C52852BF23A3C00340B62 /* KakaoSDKCert in Frameworks */,
+				51F63D9A64374BDB9D5D47DE /* Pods_Doughnut.framework in Frameworks */,
+				F90D53962BFF31C2003C3A18 /* KakaoSDK in Frameworks */,
+				F90D539C2BFF31C2003C3A18 /* KakaoSDKCertCore in Frameworks */,
+				F92BC4C32BFF569F0043ACA7 /* SnapKit in Frameworks */,
+				F90D53982BFF31C2003C3A18 /* KakaoSDKAuth in Frameworks */,
+				F90D539E2BFF31C2003C3A18 /* KakaoSDKCommon in Frameworks */,
+				F90D539A2BFF31C2003C3A18 /* KakaoSDKCert in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46AA44880762C371A7DB2FE0 /* Pods_DoughnutTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,12 +141,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48016AB98725FAAC35C773D3 /* Pods_Doughnut_DoughnutUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D8C067728DDDA7064A72150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BFF6D1ABD583469007865BA /* Pods_Doughnut.framework */,
+				10D3DAED3FC32AE75856F87B /* Pods_Doughnut_DoughnutUITests.framework */,
+				AA6A27295890B0167866D47C /* Pods_DoughnutTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B99D1E91E337D0A2B3E55B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC632485A14B63BD31826E33 /* Pods-Doughnut.debug.xcconfig */,
+				04B878831C190AA29983993F /* Pods-Doughnut.release.xcconfig */,
+				FB177835C876BAF93220BA42 /* Pods-Doughnut-DoughnutUITests.debug.xcconfig */,
+				4DE646C14A233922B484EF87 /* Pods-Doughnut-DoughnutUITests.release.xcconfig */,
+				A1A74051BDE1A4B84724C1CB /* Pods-DoughnutTests.debug.xcconfig */,
+				5B8832BA3A1335A056641DD3 /* Pods-DoughnutTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F9043BDD2BDFCA6400A16FF3 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,20 +209,23 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		F96D48362BE30982002370D0 /* Map */ = {
+		F96D48362BE30982002370D0 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
-				F96D48382BE309C7002370D0 /* MapViewController.swift */,
+				F96D48382BE309C7002370D0 /* ShopViewController.swift */,
+				F90141B92BF61ACC00F64CDA /* ShopItem.swift */,
+				F90141BB2BF62D2F00F64CDA /* ShopCollectionViewCell.swift */,
+				F90141BD2BF77FCF00F64CDA /* ItemCollectionViewCell.swift */,
 			);
-			path = Map;
+			path = Shop;
 			sourceTree = "<group>";
 		};
-		F96D48372BE3098C002370D0 /* Buy */ = {
+		F96D48372BE3098C002370D0 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				F96D483A2BE309EF002370D0 /* BuyViewController.swift */,
+				F96D483A2BE309EF002370D0 /* MapViewController.swift */,
 			);
-			path = Buy;
+			path = Map;
 			sourceTree = "<group>";
 		};
 		F98E65162BC926F0006C8380 = {
@@ -189,6 +235,8 @@
 				F98E65382BC926F2006C8380 /* DoughnutTests */,
 				F98E65422BC926F2006C8380 /* DoughnutUITests */,
 				F98E65202BC926F0006C8380 /* Products */,
+				6B99D1E91E337D0A2B3E55B2 /* Pods */,
+				1D8C067728DDDA7064A72150 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,8 +253,8 @@
 		F98E65212BC926F0006C8380 /* Doughnut */ = {
 			isa = PBXGroup;
 			children = (
-				F96D48372BE3098C002370D0 /* Buy */,
-				F96D48362BE30982002370D0 /* Map */,
+				F96D48372BE3098C002370D0 /* Map */,
+				F96D48362BE30982002370D0 /* Shop */,
 				F96D482D2BE2CA77002370D0 /* Main */,
 				F94F3EB42BE0C8F000BA95C1 /* Fonts */,
 				F9043BDD2BDFCA6400A16FF3 /* Login */,
@@ -224,6 +272,7 @@
 		F98E65382BC926F2006C8380 /* DoughnutTests */ = {
 			isa = PBXGroup;
 			children = (
+				F90D53932BFF21A3003C3A18 /* Info.plist */,
 				F98E65392BC926F2006C8380 /* DoughnutTests.swift */,
 			);
 			path = DoughnutTests;
@@ -245,9 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F98E65492BC926F2006C8380 /* Build configuration list for PBXNativeTarget "Doughnut" */;
 			buildPhases = (
+				EDF99B543B177418F16AFEC9 /* [CP] Check Pods Manifest.lock */,
 				F98E651B2BC926F0006C8380 /* Sources */,
 				F98E651C2BC926F0006C8380 /* Frameworks */,
 				F98E651D2BC926F0006C8380 /* Resources */,
+				67007B20D0060BC02A202CE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,13 +306,12 @@
 			);
 			name = Doughnut;
 			packageProductDependencies = (
-				F91C527A2BF23A2800340B62 /* SnapKit */,
-				F91C527C2BF23A2800340B62 /* SnapKit-Dynamic */,
-				F91C52802BF23A3C00340B62 /* KakaoSDK */,
-				F91C52822BF23A3C00340B62 /* KakaoSDKAuth */,
-				F91C52842BF23A3C00340B62 /* KakaoSDKCert */,
-				F91C52862BF23A3C00340B62 /* KakaoSDKCertCore */,
-				F91C52882BF23A3C00340B62 /* KakaoSDKCommon */,
+				F90D53952BFF31C2003C3A18 /* KakaoSDK */,
+				F90D53972BFF31C2003C3A18 /* KakaoSDKAuth */,
+				F90D53992BFF31C2003C3A18 /* KakaoSDKCert */,
+				F90D539B2BFF31C2003C3A18 /* KakaoSDKCertCore */,
+				F90D539D2BFF31C2003C3A18 /* KakaoSDKCommon */,
+				F92BC4C22BFF569F0043ACA7 /* SnapKit */,
 			);
 			productName = Doughnut;
 			productReference = F98E651F2BC926F0006C8380 /* Doughnut.app */;
@@ -271,6 +321,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F98E654C2BC926F2006C8380 /* Build configuration list for PBXNativeTarget "DoughnutTests" */;
 			buildPhases = (
+				1A23E04F31B33EADEEB93321 /* [CP] Check Pods Manifest.lock */,
 				F98E65312BC926F2006C8380 /* Sources */,
 				F98E65322BC926F2006C8380 /* Frameworks */,
 				F98E65332BC926F2006C8380 /* Resources */,
@@ -289,9 +340,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F98E654F2BC926F2006C8380 /* Build configuration list for PBXNativeTarget "DoughnutUITests" */;
 			buildPhases = (
+				3454344E968A6017A4BB7926 /* [CP] Check Pods Manifest.lock */,
 				F98E653B2BC926F2006C8380 /* Sources */,
 				F98E653C2BC926F2006C8380 /* Frameworks */,
 				F98E653D2BC926F2006C8380 /* Resources */,
+				0A8CC4F75118F30A97CEFF68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -336,8 +389,8 @@
 			);
 			mainGroup = F98E65162BC926F0006C8380;
 			packageReferences = (
-				F91C52792BF23A2800340B62 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				F91C527F2BF23A3C00340B62 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				F90D53942BFF31C2003C3A18 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				F92BC4C12BFF569F0043ACA7 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = F98E65202BC926F0006C8380 /* Products */;
 			projectDirPath = "";
@@ -385,6 +438,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A8CC4F75118F30A97CEFF68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Doughnut-DoughnutUITests/Pods-Doughnut-DoughnutUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Doughnut-DoughnutUITests/Pods-Doughnut-DoughnutUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Doughnut-DoughnutUITests/Pods-Doughnut-DoughnutUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A23E04F31B33EADEEB93321 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoughnutTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3454344E968A6017A4BB7926 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Doughnut-DoughnutUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67007B20D0060BC02A202CE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Doughnut/Pods-Doughnut-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Doughnut/Pods-Doughnut-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Doughnut/Pods-Doughnut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDF99B543B177418F16AFEC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Doughnut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F98E651B2BC926F0006C8380 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -393,16 +549,19 @@
 				F96D48332BE2E930002370D0 /* Item.swift in Sources */,
 				F96D48352BE3075C002370D0 /* TabBarController.swift in Sources */,
 				F94F3EBF2BE0C93B00BA95C1 /* FontExtend.swift in Sources */,
-				F96D48392BE309C7002370D0 /* MapViewController.swift in Sources */,
+				F96D48392BE309C7002370D0 /* ShopViewController.swift in Sources */,
+				F90141BA2BF61ACC00F64CDA /* ShopItem.swift in Sources */,
 				F96D48312BE2D71E002370D0 /* MainTableViewCell.swift in Sources */,
 				F96D482C2BE2C66A002370D0 /* KakaoLoginManager.swift in Sources */,
+				F90141BE2BF77FCF00F64CDA /* ItemCollectionViewCell.swift in Sources */,
 				F9043BDF2BDFCA8600A16FF3 /* SettingCheck.swift in Sources */,
+				F90141BC2BF62D2F00F64CDA /* ShopCollectionViewCell.swift in Sources */,
 				F94F3EAA2BE00BF100BA95C1 /* MemberData.swift in Sources */,
 				F98E65232BC926F0006C8380 /* AppDelegate.swift in Sources */,
 				F9043BE02BDFFF2800A16FF3 /* LoginViewController.swift in Sources */,
 				F93C32AF2BEC0932005EF43B /* SheetViewController.swift in Sources */,
 				F98E65252BC926F0006C8380 /* SceneDelegate.swift in Sources */,
-				F96D483B2BE309EF002370D0 /* BuyViewController.swift in Sources */,
+				F96D483B2BE309EF002370D0 /* MapViewController.swift in Sources */,
 				F96D482F2BE2CA8F002370D0 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,12 +731,14 @@
 		};
 		F98E654A2BC926F2006C8380 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC632485A14B63BD31826E33 /* Pods-Doughnut.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SM37WHUJB5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Doughnut/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -600,12 +761,14 @@
 		};
 		F98E654B2BC926F2006C8380 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B878831C190AA29983993F /* Pods-Doughnut.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SM37WHUJB5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Doughnut/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -628,6 +791,7 @@
 		};
 		F98E654D2BC926F2006C8380 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A74051BDE1A4B84724C1CB /* Pods-DoughnutTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -635,6 +799,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SM37WHUJB5;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoughnutTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Alice.DoughnutTests;
@@ -648,6 +813,7 @@
 		};
 		F98E654E2BC926F2006C8380 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8832BA3A1335A056641DD3 /* Pods-DoughnutTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -655,6 +821,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SM37WHUJB5;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoughnutTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Alice.DoughnutTests;
@@ -668,6 +835,7 @@
 		};
 		F98E65502BC926F2006C8380 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB177835C876BAF93220BA42 /* Pods-Doughnut-DoughnutUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -686,6 +854,7 @@
 		};
 		F98E65512BC926F2006C8380 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE646C14A233922B484EF87 /* Pods-Doughnut-DoughnutUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -744,7 +913,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F91C52792BF23A2800340B62 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		F90D53942BFF31C2003C3A18 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.22.2;
+			};
+		};
+		F92BC4C12BFF569F0043ACA7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
 			requirement = {
@@ -752,51 +929,38 @@
 				minimumVersion = 5.7.1;
 			};
 		};
-		F91C527F2BF23A3C00340B62 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.22.1;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F91C527A2BF23A2800340B62 /* SnapKit */ = {
+		F90D53952BFF31C2003C3A18 /* KakaoSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F91C52792BF23A2800340B62 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		F91C527C2BF23A2800340B62 /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F91C52792BF23A2800340B62 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
-		};
-		F91C52802BF23A3C00340B62 /* KakaoSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F91C527F2BF23A3C00340B62 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			package = F90D53942BFF31C2003C3A18 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
 			productName = KakaoSDK;
 		};
-		F91C52822BF23A3C00340B62 /* KakaoSDKAuth */ = {
+		F90D53972BFF31C2003C3A18 /* KakaoSDKAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F91C527F2BF23A3C00340B62 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			package = F90D53942BFF31C2003C3A18 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
 			productName = KakaoSDKAuth;
 		};
-		F91C52842BF23A3C00340B62 /* KakaoSDKCert */ = {
+		F90D53992BFF31C2003C3A18 /* KakaoSDKCert */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F91C527F2BF23A3C00340B62 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			package = F90D53942BFF31C2003C3A18 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
 			productName = KakaoSDKCert;
 		};
-		F91C52862BF23A3C00340B62 /* KakaoSDKCertCore */ = {
+		F90D539B2BFF31C2003C3A18 /* KakaoSDKCertCore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F91C527F2BF23A3C00340B62 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			package = F90D53942BFF31C2003C3A18 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
 			productName = KakaoSDKCertCore;
 		};
-		F91C52882BF23A3C00340B62 /* KakaoSDKCommon */ = {
+		F90D539D2BFF31C2003C3A18 /* KakaoSDKCommon */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F91C527F2BF23A3C00340B62 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			package = F90D53942BFF31C2003C3A18 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
 			productName = KakaoSDKCommon;
+		};
+		F92BC4C22BFF569F0043ACA7 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F92BC4C12BFF569F0043ACA7 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
