@@ -43,7 +43,7 @@ class MainTableViewCell: UITableViewCell {
     private lazy var donutName: UILabel = {
         let name = UILabel()
         name.textColor = .black
-        name.font = UIFont.pretendard(size: 18, weight: .bold)
+        name.font = UIFont.pretendard(size: 13, weight: .bold)
         name.textAlignment = .center
         return name
     }()
@@ -86,7 +86,7 @@ class MainTableViewCell: UITableViewCell {
         return heartStack
     }()
     
-    //MARK: - ConstraintsFunction
+    //MARK: - Constraints
     ///프로퍼티 뷰 추가
     private func addProperty() {
         self.contentView.addSubview(donutImage)

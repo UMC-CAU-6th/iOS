@@ -14,16 +14,16 @@ class TabBarController: UITabBarController {
         super.viewDidLoad()
             
         let firstVC = UINavigationController(rootViewController: MainViewController())
-        let secondVC = UINavigationController(rootViewController: MapViewController())
-        let thirdVC = UINavigationController(rootViewController: BuyViewController())
+        let secondVC = UINavigationController(rootViewController: ShopViewController())
+        let thirdVC = UINavigationController(rootViewController: MapViewController())
 
             
         firstVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"),selectedImage: UIImage(systemName: "house.fill"))
         firstVC.tabBarItem.badgeValue = "1"
         
-        secondVC.tabBarItem = UITabBarItem(title: "Map", image: UIImage(systemName: "map"),selectedImage: UIImage(systemName: "map.fill"))
+        secondVC.tabBarItem = UITabBarItem(title: "Shop", image: UIImage(systemName: "bag"),selectedImage: UIImage(systemName: "bag.fill"))
         
-        thirdVC.tabBarItem = UITabBarItem(title: "Basket", image: UIImage(systemName: "basket"),selectedImage: UIImage(systemName: "basket.fill"))
+        thirdVC.tabBarItem = UITabBarItem(title: "Map", image: UIImage(systemName: "map"),selectedImage: UIImage(systemName: "map.fill"))
 
         self.viewControllers = [firstVC, secondVC, thirdVC]
         
