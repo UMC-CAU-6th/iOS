@@ -4,7 +4,7 @@ import SnapKit
 class BaseTabViewController: UIViewController, PhotoPickerProtocol {
     
     //MARK: - UI
-    private lazy var image: UIImageView = {
+    lazy var image: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFit
         imageView.layer.borderColor = UIColor.gray.cgColor
@@ -12,7 +12,7 @@ class BaseTabViewController: UIViewController, PhotoPickerProtocol {
         return imageView
     }()
     
-    private lazy var button: UIButton = {
+    lazy var button: UIButton = {
         let button = UIButton()
         
         /*버튼 Configuration*/

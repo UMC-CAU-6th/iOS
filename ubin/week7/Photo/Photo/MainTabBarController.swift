@@ -17,8 +17,11 @@ class MainTabBarController: UITabBarController {
                 
         let tabBViewController = TabBViewController()
         tabBViewController.tabBarItem = UITabBarItem(title: "B탭", image: nil, selectedImage: nil)
+        
+        let tabCViewController = TabCViewController()
+        tabCViewController.tabBarItem = UITabBarItem(title: "C탭", image: nil, selectedImage: nil)
                 
-        viewControllers = [tabAViewController, tabBViewController]
+        viewControllers = [tabAViewController, tabBViewController, tabCViewController]
     }
 
 }
