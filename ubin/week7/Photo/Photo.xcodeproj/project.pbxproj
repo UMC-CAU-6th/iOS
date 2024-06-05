@@ -20,6 +20,8 @@
 		F9A773FD2C09B3AB000603B7 /* TabAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A773FC2C09B3AB000603B7 /* TabAViewController.swift */; };
 		F9A773FF2C09B3C7000603B7 /* TabBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A773FE2C09B3C7000603B7 /* TabBViewController.swift */; };
 		F9A774022C09B3E7000603B7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F9A774012C09B3E7000603B7 /* SnapKit */; };
+		F9E313592C0B0BC800CD3E62 /* tabCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E313582C0B0BC800CD3E62 /* tabCViewController.swift */; };
+		F9E3135B2C0B0C2900CD3E62 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E3135A2C0B0C2900CD3E62 /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		F9A773FA2C09B35B000603B7 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		F9A773FC2C09B3AB000603B7 /* TabAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabAViewController.swift; sourceTree = "<group>"; };
 		F9A773FE2C09B3C7000603B7 /* TabBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBViewController.swift; sourceTree = "<group>"; };
+		F9E313582C0B0BC800CD3E62 /* tabCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabCViewController.swift; sourceTree = "<group>"; };
+		F9E3135A2C0B0C2900CD3E62 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				F9A773CC2C09AF8A000603B7 /* BaseTabViewController.swift */,
 				F9A773FC2C09B3AB000603B7 /* TabAViewController.swift */,
 				F9A773FE2C09B3C7000603B7 /* TabBViewController.swift */,
+				F9E313582C0B0BC800CD3E62 /* tabCViewController.swift */,
+				F9E3135A2C0B0C2900CD3E62 /* CacheManager.swift */,
 			);
 			path = Photo;
 			sourceTree = "<group>";
@@ -274,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E313592C0B0BC800CD3E62 /* tabCViewController.swift in Sources */,
+				F9E3135B2C0B0C2900CD3E62 /* CacheManager.swift in Sources */,
 				F9A773FB2C09B35B000603B7 /* MainTabBarController.swift in Sources */,
 				F9A773F92C09B22D000603B7 /* PhotoPicker.swift in Sources */,
 				F9A773FF2C09B3C7000603B7 /* TabBViewController.swift in Sources */,
