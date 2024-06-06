@@ -27,6 +27,7 @@
 		33449AAA2BE3796200C9B722 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33449AA92BE3796200C9B722 /* MainViewController.swift */; };
 		33449AAE2BE39E7800C9B722 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33449AAD2BE39E7800C9B722 /* TableViewCell.swift */; };
 		33449AB02BE3A40100C9B722 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33449AAF2BE3A40100C9B722 /* Item.swift */; };
+		3374EC902C0B03DB00A38256 /* ReverseGeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374EC8F2C0B03DB00A38256 /* ReverseGeo.swift */; };
 		33B038122BFED7FC00CFB9C1 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B038112BFED7FC00CFB9C1 /* ShopItem.swift */; };
 		33B038162BFF356B00CFB9C1 /* AdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B038152BFF356B00CFB9C1 /* AdCollectionViewCell.swift */; };
 		33B038182BFF386D00CFB9C1 /* BestItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B038172BFF386D00CFB9C1 /* BestItemCell.swift */; };
@@ -80,6 +81,7 @@
 		33449AA92BE3796200C9B722 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		33449AAD2BE39E7800C9B722 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		33449AAF2BE3A40100C9B722 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3374EC8F2C0B03DB00A38256 /* ReverseGeo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeo.swift; sourceTree = "<group>"; };
 		33B038112BFED7FC00CFB9C1 /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
 		33B038152BFF356B00CFB9C1 /* AdCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCollectionViewCell.swift; sourceTree = "<group>"; };
 		33B038172BFF386D00CFB9C1 /* BestItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestItemCell.swift; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				33EFDB742BECC37A00AF6588 /* MapViewController.swift */,
+				3374EC8F2C0B03DB00A38256 /* ReverseGeo.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 			files = (
 				33B038182BFF386D00CFB9C1 /* BestItemCell.swift in Sources */,
 				33B038162BFF356B00CFB9C1 /* AdCollectionViewCell.swift in Sources */,
+				3374EC902C0B03DB00A38256 /* ReverseGeo.swift in Sources */,
 				33EFDB772BECC3B200AF6588 /* ShoppingViewController.swift in Sources */,
 				334499E42BE2327200C9B722 /* LoginViewController.swift in Sources */,
 				33B038122BFED7FC00CFB9C1 /* ShopItem.swift in Sources */,

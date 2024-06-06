@@ -28,6 +28,26 @@ class ShoppingViewController: UIViewController {
         title.attributedText = NSAttributedString(string: "Donut Online Store", attributes: strokeTextAttributes)
         return title
     }()
+    private lazy var title2Label: UILabel = {
+        let title = UILabel()
+        let strokeTextAttributes: [NSAttributedString.Key: Any] = [
+            .foregroundColor: UIColor.black,
+            .strokeWidth: -1.0,
+            .font: UIFont(name: "Inter-Bold", size: 20) ?? UIFont.systemFont(ofSize: 20, weight: .bold)
+        ]
+        title.attributedText = NSAttributedString(string: "All Products", attributes: strokeTextAttributes)
+        return title
+    }()
+    private lazy var title3Label: UILabel = {
+        let title = UILabel()
+        let strokeTextAttributes: [NSAttributedString.Key: Any] = [
+            .foregroundColor: UIColor.black,
+            .strokeWidth: -1.0,
+            .font: UIFont(name: "Inter-Bold", size: 20) ?? UIFont.systemFont(ofSize: 20, weight: .bold)
+        ]
+        title.attributedText = NSAttributedString(string: "Best Items", attributes: strokeTextAttributes)
+        return title
+    }()
     ///scrollview
     private lazy var mainScrollView: UIScrollView = {
         let sv = UIScrollView()
@@ -67,6 +87,7 @@ class ShoppingViewController: UIViewController {
         cv.tag = 2
         return cv
     }()
+    ///best items
     private lazy var biView: UICollectionView = {
         let lo = UICollectionViewFlowLayout()
         lo.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
@@ -77,33 +98,57 @@ class ShoppingViewController: UIViewController {
         cv.tag = 3
         return cv
     }()
+    //MARK: - Stack
+    private func createStackView() -> UIStackView {
+        let s = UIStackView()
+        s.axis = .vertical
+        s.distribution = .fill
+        s.spacing = 10
+        return s
+    }
+    private lazy var apStack: UIStackView = {
+        return createStackView()
+    }()
+    private lazy var biStack: UIStackView = {
+        return createStackView()
+    }()
     //MARK: - Init
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         self.view.addSubview(mainScrollView)
         self.mainScrollView.addSubview(contentView)
+        scrollMakeConstraints()
         self.contentView.addSubview(titleLabel)
         self.contentView.addSubview(adView)
-        self.contentView.addSubview(apView)
-        self.contentView.addSubview(biView)
-        scrollMakeConstraints()
+        self.contentView.addSubview(apStack)
+        self.contentView.addSubview(biStack)
+        apStack.addArrangedSubview(title2Label)
+        apStack.addArrangedSubview(apView)
+        biStack.addArrangedSubview(title3Label)
+        biStack.addArrangedSubview(biView)
         contentMakeConstraints()
+        
     }
     //MARK: - Snapkit
     private func scrollMakeConstraints(){
         mainScrollView.snp.makeConstraints{ make in
-            make.edges.equalToSuperview()
+            //make.edges.equalToSuperview()
+            make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
+            make.leading.equalTo(view.safeAreaLayoutGuide.snp.leading)
+            make.trailing.equalTo(view.safeAreaLayoutGuide.snp.trailing)
+            make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
         }
         contentView.snp.makeConstraints{ make in
             make.edges.equalTo(mainScrollView)
             make.width.equalTo(mainScrollView)
-            make.height.greaterThanOrEqualToSuperview()
+            make.height.equalTo(1500)
+            //make.height.greaterThanOrEqualToSuperview()
         }
     }
     private func contentMakeConstraints(){
         titleLabel.snp.makeConstraints{ make in
-            make.top.equalToSuperview().offset(80)
+            make.top.equalToSuperview().offset(20)
             make.leading.equalToSuperview().offset(20)
             make.width.greaterThanOrEqualTo(100)
             make.height.greaterThanOrEqualTo(20)
@@ -114,14 +159,14 @@ class ShoppingViewController: UIViewController {
             make.width.equalToSuperview()
             make.height.lessThanOrEqualTo(200)
         }
-        apView.snp.makeConstraints{ make in
+        apStack.snp.makeConstraints{ make in
             make.top.equalTo(adView.snp.bottom).offset(15)
             make.left.equalToSuperview().offset(10)
             make.right.equalToSuperview().offset(-10)
-            make.height.lessThanOrEqualTo(280)
+            make.height.greaterThanOrEqualTo(310)
         }
-        biView.snp.makeConstraints{ make in
-            make.top.equalTo(apView.snp.bottom).offset(5)
+        biStack.snp.makeConstraints{ make in
+            make.top.equalTo(apStack.snp.bottom).offset(5)
             make.left.equalToSuperview().offset(10)
             make.right.equalToSuperview().offset(-10)
             make.height.greaterThanOrEqualTo(1000)
