@@ -29,7 +29,7 @@ final class ShopItem{
     static let apDataList: [ShopAp] = [
         ShopAp(img: UIImage(named: "allpd1"), name: "텀블러/보온병"),
         ShopAp(img: UIImage(named: "allpd2"), name: "머그/컵"),
-        ShopAp(img: UIImage(named: "allpd3"), name: "라이프스타일"),
+        ShopAp(img: UIImage(named: "allpd3"), name: "라이프 스타일"),
         ShopAp(img: UIImage(named: "allpd4"), name: "티/커피용품"),
         ShopAp(img: UIImage(named: "allpd5"), name: "케이크"),
         ShopAp(img: UIImage(named: "allpd6"), name: "초콜릿/스낵"),

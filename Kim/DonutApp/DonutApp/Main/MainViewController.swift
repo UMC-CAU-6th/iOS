@@ -160,6 +160,12 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         cell.addData(model: donutData[indexPath.row])
         return cell
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedDonut = donutData[indexPath.row]
+        let mapVC = MapViewController()
+        mapVC.selectedDonut = selectedDonut
+        self.navigationController?.pushViewController(mapVC, animated: true)
+    }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 95
     }
