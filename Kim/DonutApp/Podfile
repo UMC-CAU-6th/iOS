@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '17.2'
+ install! 'cocoapods', warn_for_unused_master_specs_repo: false
+
+target 'DonutApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'NMapsMap'
+
+  # Pods for DonutApp
+
+  target 'DonutAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DonutAppUITests' do
+    # Pods for testing
+  end
+
+end
