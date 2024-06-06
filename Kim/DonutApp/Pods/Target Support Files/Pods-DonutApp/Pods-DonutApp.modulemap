@@ -1,6 +1,0 @@
-framework module Pods_DonutApp {
-  umbrella header "Pods-DonutApp-umbrella.h"
-
-  export *
-  module * { export * }
-}

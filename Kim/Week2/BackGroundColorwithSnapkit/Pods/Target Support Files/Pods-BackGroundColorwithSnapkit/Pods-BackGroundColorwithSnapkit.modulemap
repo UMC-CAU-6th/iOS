@@ -1,6 +1,0 @@
-framework module Pods_BackGroundColorwithSnapkit {
-  umbrella header "Pods-BackGroundColorwithSnapkit-umbrella.h"
-
-  export *
-  module * { export * }
-}
