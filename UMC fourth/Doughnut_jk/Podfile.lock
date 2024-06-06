@@ -1,0 +1,24 @@
+PODS:
+  - NMapsGeometry (1.0.2)
+  - NMapsMap (3.18.1):
+    - NMapsGeometry
+  - Toast-Swift (5.1.1)
+
+DEPENDENCIES:
+  - NMapsMap
+  - Toast-Swift (~> 5.1.1)
+
+SPEC REPOS:
+  trunk:
+    - NMapsGeometry
+    - NMapsMap
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  NMapsGeometry: 4e02554fa9880ef02ed96b075dc84355d6352479
+  NMapsMap: e879088eeee2d1e3b97f0a609076e1824dce2cad
+  Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
+
+PODFILE CHECKSUM: cac3f7256308b9b2ce22e774dd3c19a07655034c
+
+COCOAPODS: 1.15.2

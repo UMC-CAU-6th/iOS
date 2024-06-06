@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550232752BFEFAC5004D1673 /* AllCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550232742BFEFAC5004D1673 /* AllCollectionViewCell.swift */; };
+		550232772BFEFACF004D1673 /* BestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550232762BFEFACF004D1673 /* BestCollectionViewCell.swift */; };
+		550232792BFEFB1A004D1673 /* CollectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550232782BFEFB1A004D1673 /* CollectionData.swift */; };
+		5506B4622BE8C84900B06084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506B4612BE8C84900B06084 /* AppDelegate.swift */; };
+		5506B4642BE8C84900B06084 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506B4632BE8C84900B06084 /* SceneDelegate.swift */; };
+		5506B46B2BE8C84C00B06084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5506B46A2BE8C84C00B06084 /* Assets.xcassets */; };
+		5506B47C2BE8CA0900B06084 /* DoughnutTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506B47B2BE8CA0900B06084 /* DoughnutTabBarController.swift */; };
+		5506B47E2BE8E49A00B06084 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506B47D2BE8E49A00B06084 /* MainViewController.swift */; };
+		5506B4802BE8E4B600B06084 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506B47F2BE8E4B600B06084 /* LoginViewController.swift */; };
+		5506B4822BE8E69900B06084 /* NanumGothic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5506B4812BE8E69900B06084 /* NanumGothic.otf */; };
+		5506B4842BE8E6AA00B06084 /* NanumGothicBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5506B4832BE8E6AA00B06084 /* NanumGothicBold.otf */; };
+		5506B4862BE8E6B500B06084 /* NanumGothicExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5506B4852BE8E6B500B06084 /* NanumGothicExtraBold.otf */; };
+		5506B4882BE8E6BB00B06084 /* NanumGothicLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5506B4872BE8E6BB00B06084 /* NanumGothicLight.otf */; };
+		5506B48B2BE8E6D300B06084 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 5506B48A2BE8E6D300B06084 /* KakaoSDK */; };
+		5506B4922BE8E71700B06084 /* fontExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506B4912BE8E71700B06084 /* fontExtend.swift */; };
+		5506B4942BE8E80D00B06084 /* fontCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506B4932BE8E80D00B06084 /* fontCheck.swift */; };
+		5506B4962BE9021D00B06084 /* KakaoLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506B4952BE9021D00B06084 /* KakaoLoginManager.swift */; };
+		55615E432BEA78C900931B7E /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55615E422BEA78C900931B7E /* Member.swift */; };
+		55615E452BEB296000931B7E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55615E442BEB296000931B7E /* TableViewCell.swift */; };
+		55615E472BEB297D00931B7E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55615E462BEB297D00931B7E /* Item.swift */; };
+		55615E4A2BEB5BA700931B7E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55615E492BEB5BA700931B7E /* MapViewController.swift */; };
+		55615E4C2BEB5BED00931B7E /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55615E4B2BEB5BED00931B7E /* ShoppingViewController.swift */; };
+		55615E4E2BEB9E6900931B7E /* yellowSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55615E4D2BEB9E6900931B7E /* yellowSheetViewController.swift */; };
+		55A5BC5C2BFDAF2A00380E8F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 55A5BC5B2BFDAF2A00380E8F /* SnapKit */; };
+		55DEB57C2C04F17D00B2E8AF /* AdvertisementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DEB57B2C04F17D00B2E8AF /* AdvertisementCell.swift */; };
+		55DEB5872C099E9500B2E8AF /* ReverseGeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DEB5862C099E9500B2E8AF /* ReverseGeo.swift */; };
+		C8A9A9989D45DA14463A933C /* Pods_Doughnut_jk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED3CB8C6AD2DD7A31A147B0 /* Pods_Doughnut_jk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		550232742BFEFAC5004D1673 /* AllCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCollectionViewCell.swift; sourceTree = "<group>"; };
+		550232762BFEFACF004D1673 /* BestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestCollectionViewCell.swift; sourceTree = "<group>"; };
+		550232782BFEFB1A004D1673 /* CollectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionData.swift; sourceTree = "<group>"; };
+		5506B45E2BE8C84900B06084 /* Doughnut_jk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doughnut_jk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5506B4612BE8C84900B06084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5506B4632BE8C84900B06084 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5506B46A2BE8C84C00B06084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5506B46F2BE8C84C00B06084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5506B47B2BE8CA0900B06084 /* DoughnutTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutTabBarController.swift; sourceTree = "<group>"; };
+		5506B47D2BE8E49A00B06084 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5506B47F2BE8E4B600B06084 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5506B4812BE8E69900B06084 /* NanumGothic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothic.otf; sourceTree = "<group>"; };
+		5506B4832BE8E6AA00B06084 /* NanumGothicBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicBold.otf; sourceTree = "<group>"; };
+		5506B4852BE8E6B500B06084 /* NanumGothicExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicExtraBold.otf; sourceTree = "<group>"; };
+		5506B4872BE8E6BB00B06084 /* NanumGothicLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicLight.otf; sourceTree = "<group>"; };
+		5506B4912BE8E71700B06084 /* fontExtend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fontExtend.swift; sourceTree = "<group>"; };
+		5506B4932BE8E80D00B06084 /* fontCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fontCheck.swift; sourceTree = "<group>"; };
+		5506B4952BE9021D00B06084 /* KakaoLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginManager.swift; sourceTree = "<group>"; };
+		55615E422BEA78C900931B7E /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		55615E442BEB296000931B7E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		55615E462BEB297D00931B7E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		55615E492BEB5BA700931B7E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		55615E4B2BEB5BED00931B7E /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		55615E4D2BEB9E6900931B7E /* yellowSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yellowSheetViewController.swift; sourceTree = "<group>"; };
+		55DEB57B2C04F17D00B2E8AF /* AdvertisementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementCell.swift; sourceTree = "<group>"; };
+		55DEB5862C099E9500B2E8AF /* ReverseGeo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeo.swift; sourceTree = "<group>"; };
+		5ED3CB8C6AD2DD7A31A147B0 /* Pods_Doughnut_jk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doughnut_jk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E454E7130AB4CF22254F72 /* Pods-Doughnut_jk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doughnut_jk.release.xcconfig"; path = "Target Support Files/Pods-Doughnut_jk/Pods-Doughnut_jk.release.xcconfig"; sourceTree = "<group>"; };
+		B41D52A6D9A97182BD65908B /* Pods-Doughnut_jk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doughnut_jk.debug.xcconfig"; path = "Target Support Files/Pods-Doughnut_jk/Pods-Doughnut_jk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5506B45B2BE8C84900B06084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5506B48B2BE8E6D300B06084 /* KakaoSDK in Frameworks */,
+				55A5BC5C2BFDAF2A00380E8F /* SnapKit in Frameworks */,
+				C8A9A9989D45DA14463A933C /* Pods_Doughnut_jk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D866BF08626E633D1D6F5E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ED3CB8C6AD2DD7A31A147B0 /* Pods_Doughnut_jk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CF007D51A8D41C63EA0EC39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B41D52A6D9A97182BD65908B /* Pods-Doughnut_jk.debug.xcconfig */,
+				73E454E7130AB4CF22254F72 /* Pods-Doughnut_jk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5506B4552BE8C84900B06084 = {
+			isa = PBXGroup;
+			children = (
+				5506B4602BE8C84900B06084 /* Doughnut_jk */,
+				5506B45F2BE8C84900B06084 /* Products */,
+				2CF007D51A8D41C63EA0EC39 /* Pods */,
+				1D866BF08626E633D1D6F5E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5506B45F2BE8C84900B06084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5506B45E2BE8C84900B06084 /* Doughnut_jk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5506B4602BE8C84900B06084 /* Doughnut_jk */ = {
+			isa = PBXGroup;
+			children = (
+				5506B47A2BE8C8A300B06084 /* Environment */,
+				5506B4792BE8C89D00B06084 /* Login */,
+				5506B4772BE8C89400B06084 /* Main */,
+				5506B4762BE8C88A00B06084 /* Map */,
+				5506B4752BE8C87E00B06084 /* Shopping */,
+				5506B47B2BE8CA0900B06084 /* DoughnutTabBarController.swift */,
+				5506B46A2BE8C84C00B06084 /* Assets.xcassets */,
+				5506B46F2BE8C84C00B06084 /* Info.plist */,
+				5506B4782BE8C89800B06084 /* Fonts */,
+			);
+			path = Doughnut_jk;
+			sourceTree = "<group>";
+		};
+		5506B4752BE8C87E00B06084 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				55DEB57A2C04F15000B2E8AF /* CellGroup */,
+				55615E4B2BEB5BED00931B7E /* ShoppingViewController.swift */,
+				550232782BFEFB1A004D1673 /* CollectionData.swift */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
+		5506B4762BE8C88A00B06084 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				55615E492BEB5BA700931B7E /* MapViewController.swift */,
+				55DEB5862C099E9500B2E8AF /* ReverseGeo.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		5506B4772BE8C89400B06084 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5506B47D2BE8E49A00B06084 /* MainViewController.swift */,
+				55615E442BEB296000931B7E /* TableViewCell.swift */,
+				55615E462BEB297D00931B7E /* Item.swift */,
+				55615E4D2BEB9E6900931B7E /* yellowSheetViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5506B4782BE8C89800B06084 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5506B4812BE8E69900B06084 /* NanumGothic.otf */,
+				5506B4832BE8E6AA00B06084 /* NanumGothicBold.otf */,
+				5506B4852BE8E6B500B06084 /* NanumGothicExtraBold.otf */,
+				5506B4872BE8E6BB00B06084 /* NanumGothicLight.otf */,
+				5506B4912BE8E71700B06084 /* fontExtend.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5506B4792BE8C89D00B06084 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5506B47F2BE8E4B600B06084 /* LoginViewController.swift */,
+				5506B4952BE9021D00B06084 /* KakaoLoginManager.swift */,
+				55615E422BEA78C900931B7E /* Member.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5506B47A2BE8C8A300B06084 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				5506B4612BE8C84900B06084 /* AppDelegate.swift */,
+				5506B4632BE8C84900B06084 /* SceneDelegate.swift */,
+				5506B4932BE8E80D00B06084 /* fontCheck.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		55DEB57A2C04F15000B2E8AF /* CellGroup */ = {
+			isa = PBXGroup;
+			children = (
+				55DEB57B2C04F17D00B2E8AF /* AdvertisementCell.swift */,
+				550232742BFEFAC5004D1673 /* AllCollectionViewCell.swift */,
+				550232762BFEFACF004D1673 /* BestCollectionViewCell.swift */,
+			);
+			path = CellGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5506B45D2BE8C84900B06084 /* Doughnut_jk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5506B4722BE8C84C00B06084 /* Build configuration list for PBXNativeTarget "Doughnut_jk" */;
+			buildPhases = (
+				41B66D0EF01FC0EA506132B9 /* [CP] Check Pods Manifest.lock */,
+				5506B45A2BE8C84900B06084 /* Sources */,
+				5506B45B2BE8C84900B06084 /* Frameworks */,
+				5506B45C2BE8C84900B06084 /* Resources */,
+				6EC8662BB4D741D8B4B7942E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doughnut_jk;
+			packageProductDependencies = (
+				5506B48A2BE8E6D300B06084 /* KakaoSDK */,
+				55A5BC5B2BFDAF2A00380E8F /* SnapKit */,
+			);
+			productName = Doughnut_jk;
+			productReference = 5506B45E2BE8C84900B06084 /* Doughnut_jk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5506B4562BE8C84900B06084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5506B45D2BE8C84900B06084 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 5506B4592BE8C84900B06084 /* Build configuration list for PBXProject "Doughnut_jk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5506B4552BE8C84900B06084;
+			packageReferences = (
+				5506B4892BE8E6D300B06084 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				55A5BC5A2BFDAF2A00380E8F /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 5506B45F2BE8C84900B06084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5506B45D2BE8C84900B06084 /* Doughnut_jk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5506B45C2BE8C84900B06084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5506B4842BE8E6AA00B06084 /* NanumGothicBold.otf in Resources */,
+				5506B4882BE8E6BB00B06084 /* NanumGothicLight.otf in Resources */,
+				5506B4862BE8E6B500B06084 /* NanumGothicExtraBold.otf in Resources */,
+				5506B46B2BE8C84C00B06084 /* Assets.xcassets in Resources */,
+				5506B4822BE8E69900B06084 /* NanumGothic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41B66D0EF01FC0EA506132B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Doughnut_jk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EC8662BB4D741D8B4B7942E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Doughnut_jk/Pods-Doughnut_jk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Doughnut_jk/Pods-Doughnut_jk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Doughnut_jk/Pods-Doughnut_jk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5506B45A2BE8C84900B06084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5506B4622BE8C84900B06084 /* AppDelegate.swift in Sources */,
+				5506B4942BE8E80D00B06084 /* fontCheck.swift in Sources */,
+				5506B4642BE8C84900B06084 /* SceneDelegate.swift in Sources */,
+				5506B47C2BE8CA0900B06084 /* DoughnutTabBarController.swift in Sources */,
+				55615E432BEA78C900931B7E /* Member.swift in Sources */,
+				55DEB5872C099E9500B2E8AF /* ReverseGeo.swift in Sources */,
+				55615E452BEB296000931B7E /* TableViewCell.swift in Sources */,
+				55615E472BEB297D00931B7E /* Item.swift in Sources */,
+				550232772BFEFACF004D1673 /* BestCollectionViewCell.swift in Sources */,
+				55615E4A2BEB5BA700931B7E /* MapViewController.swift in Sources */,
+				550232752BFEFAC5004D1673 /* AllCollectionViewCell.swift in Sources */,
+				55615E4E2BEB9E6900931B7E /* yellowSheetViewController.swift in Sources */,
+				55615E4C2BEB5BED00931B7E /* ShoppingViewController.swift in Sources */,
+				550232792BFEFB1A004D1673 /* CollectionData.swift in Sources */,
+				5506B4802BE8E4B600B06084 /* LoginViewController.swift in Sources */,
+				5506B4962BE9021D00B06084 /* KakaoLoginManager.swift in Sources */,
+				55DEB57C2C04F17D00B2E8AF /* AdvertisementCell.swift in Sources */,
+				5506B4922BE8E71700B06084 /* fontExtend.swift in Sources */,
+				5506B47E2BE8E49A00B06084 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5506B4702BE8C84C00B06084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5506B4712BE8C84C00B06084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5506B4732BE8C84C00B06084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41D52A6D9A97182BD65908B /* Pods-Doughnut_jk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Doughnut_jk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sokft.Doughnut-jk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5506B4742BE8C84C00B06084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E454E7130AB4CF22254F72 /* Pods-Doughnut_jk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XY6F875852;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Doughnut_jk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sokft.Doughnut-jk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5506B4592BE8C84900B06084 /* Build configuration list for PBXProject "Doughnut_jk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5506B4702BE8C84C00B06084 /* Debug */,
+				5506B4712BE8C84C00B06084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5506B4722BE8C84C00B06084 /* Build configuration list for PBXNativeTarget "Doughnut_jk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5506B4732BE8C84C00B06084 /* Debug */,
+				5506B4742BE8C84C00B06084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5506B4892BE8E6D300B06084 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.22.1;
+			};
+		};
+		55A5BC5A2BFDAF2A00380E8F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5506B48A2BE8E6D300B06084 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5506B4892BE8E6D300B06084 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		55A5BC5B2BFDAF2A00380E8F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55A5BC5A2BFDAF2A00380E8F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5506B4562BE8C84900B06084 /* Project object */;
+}

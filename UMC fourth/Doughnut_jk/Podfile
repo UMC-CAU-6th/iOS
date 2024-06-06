@@ -1,0 +1,8 @@
+platform :ios, '12.0'
+
+target 'Doughnut_jk' do
+  use_frameworks!
+  pod 'NMapsMap'
+  pod 'Toast-Swift', '~> 5.1.1'
+  # Pods for Doughnut_jk
+end
