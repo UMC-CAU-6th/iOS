@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '13.0'
+
+target 'weather_api' do
+  use_frameworks!
+
+  pod 'Alamofire', '~> 5.4'
+  pod 'Moya', '~> 14.0'
+ pod 'SnapKit', '~> 5.0.0'
+end
